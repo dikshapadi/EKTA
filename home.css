@@ -28,7 +28,6 @@
     margin-top: 10px;
   }
 
-/* Additional styles for buttons on top if needed */
 
 .hidden-item {
     opacity: 0;
@@ -47,12 +46,12 @@
 
 
 .section2{
-    background-image: url(sec2final.jpg);
+    background-image: url(sec2.jpg);
     height: 643px;
     width: 1280px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:163px;
+    margin-top: 202px;
 }
 
 .journey{
@@ -204,4 +203,9 @@ a:hover{
     font-size: 24px;
     font-weight: bold;
     margin-top: -20px;
+  }
+
+  .img2{
+    height: 170px;
+    width:150px ;
   }
