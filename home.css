@@ -114,7 +114,7 @@
   }
 
   .section3{
-    background-image: url(/assets/img/sec3.jpeg);
+    background-image: url(./idk.jpeg);
     height: 643px;
     width: 1280px;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@
   }
   
   .tagline {
-    color: green;
+    color: green ;
     font-size: 24px;
     font-weight: bold;
     margin-top: -20px;
