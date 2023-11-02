@@ -291,11 +291,11 @@ select::-ms-expand {
   }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url(img/img1.6.jpeg);
+    background-image: url("../img/img1.6.jpeg");
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url(img/img1.7.jpg);
+    background-image: url("../img/img1.7.jpg");
 }
 
 
