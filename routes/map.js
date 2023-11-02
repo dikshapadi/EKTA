@@ -25,4 +25,6 @@ router.get('/statePage/:stateName', async (req, res) => {
     }
 });
 
+
+
 module.exports = router;	
