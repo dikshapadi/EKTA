@@ -44,9 +44,8 @@
     opacity: 0.8;
 }
 
-
 .section2{
-    background-image: url(sec2.jpeg);
+    background-image: url(/assets/img/sec2.png);
     height: 643px;
     width: 1280px;
     background-repeat: no-repeat;
@@ -54,25 +53,15 @@
     margin-top: 202px;
 }
 
-.journey{
-    text-align: center;
-    padding-top: 180px;
-    font-size: 60px;
-    color: white;
-    text-shadow: 1px 1px 3px #999;
-}   
-
-.col {
-    flex: 0 0 calc(33.33% - 20px); 
-    border: 2px solid white;
-    padding: 10px;
-    text-align: center;
-    background-color: transparent;
-    border-radius: 10px;
-    margin-right: 80px;
-    margin-left: 20px;
+.container{
+  margin-top: 10px;
 }
 
+
+.img2{
+  height: 350px;
+  width:320px;
+}
 
 .col:hover{
     color: black;
@@ -138,7 +127,7 @@ a:hover{
   }
 
   .section3{
-    background-image: url(boat.jpg);
+    background-image: url(/assets/img/sec3.jpeg);
     height: 643px;
     width: 1280px;
     background-repeat: no-repeat;
@@ -197,16 +186,9 @@ a:hover{
     margin-top: 200px;
   }
   
-  
-  
   .tagline {
     color: green;
     font-size: 24px;
     font-weight: bold;
     margin-top: -20px;
-  }
-
-  .img2{
-    height: 170px;
-    width:150px ;
   }
