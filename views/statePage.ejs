@@ -1,33 +1,87 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <title><%= stateData.stateName %></title>
-    <style>
-        body{
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtR-N6V2D1o07gDVj0eFnOaMFxWsjLjw85Q&usqp=CAU');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="../assets/css/statePage.css">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    
-    <h1><%= stateData.stateName %></h1>
-    <p>Cuisine: <%= stateData.cuisine %></p>
-    <!--
-    <p>Art: <%= stateData.art %></p>
-    <p>Music: <%= stateData.music %></p>
-    <img src="<%= stateData.imageURL[0] %>">
-    <img src="<%= stateData.imageURL[1] %>">
-     Example Canva embed code -->
-    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="<%= stateData.videoURL %>" allowfullscreen="allowfullscreen" allow="fullscreen" autoplay muted>
-  </iframe>
-</div>
+
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="<%= stateData.imageURL[0] %>">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name"><%= stateData.stateName %></span>
+                    <img src="">
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
 
 
-</body>
-</html> 
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="/donor/donate">
+                            <i class='bx bx-donate-heart icon' ></i>
+                            <span class="text nav-text">Donate</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/donor/donations/pending">
+                            <i class='bx bx-skip-previous icon' ></i>
+                            <span class="text nav-text">Pending Donations</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/donor/donations/previous">
+                            <i class='bx bx-skip-previous icon' ></i>
+                            <span class="text nav-text">Previous Donations</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/donor/profile">
+                            <i class='bx bx-user-pin icon' ></i>
+                            <span class="text nav-text">Profile</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="/auth/logout">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        
+
+    <script>
+    	const body = document.querySelector('body'),
+     	sidebar = body.querySelector('nav'),
+    	toggle = body.querySelector(".toggle"),
+
+        modeSwitch = body.querySelector(".toggle-switch"),
+        modeText = body.querySelector(".mode-text");
+
+		toggle.addEventListener("click" , () =>{sidebar.classList.toggle("close");})
+    </script>
+
+
+
+
+
