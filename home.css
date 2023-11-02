@@ -11,6 +11,10 @@
     height: 79vh; /* Set the height of the video container */
 }
 
+.logo{
+  border-radius: 100%;
+}
+
 .content-container {
     flex: 1;
     display: flex;
@@ -114,7 +118,7 @@
   }
 
   .section3{
-    background-image: url(./idk.jpeg);
+    background-image: url(/assets/img/sec3.jpeg);
     height: 643px;
     width: 1280px;
     background-repeat: no-repeat;
