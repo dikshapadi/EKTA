@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.firstlogo{
+  width: 20%;
+  height: 20%;
+  }
+  
+.ektalogo{
+    width: 30%;
+    height: 30%;
+   border-radius: 50%;
+}
+
 .banner{
     width: 100%;
     height: 100vh;

@@ -28,47 +28,39 @@
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="/donor/donate">
-                            <i class='bx bx-donate-heart icon' ></i>
-                            <span class="text nav-text">Donate</span>
+                        <a href="/index?state=<%= stateData.stateName%>" target="_blank">
+                            <i class='bx bx-restaurant icon' ></i>
+                            <span class="text nav-text">Cuisines</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="/donor/donations/pending">
-                            <i class='bx bx-skip-previous icon' ></i>
-                            <span class="text nav-text">Pending Donations</span>
+                        <a href="/dance/#music1" target="_blank">
+                            <i class='bx bxs-music icon' ></i>
+                            <span class="text nav-text">Music</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="/donor/donations/previous">
-                            <i class='bx bx-skip-previous icon' ></i>
-                            <span class="text nav-text">Previous Donations</span>
+                        <a href="/dance/#music1" target="_blank">
+                            <i class='bx bx-walk icon' ></i>
+                            <span class="text nav-text">Dance</span>
                         </a>
                     </li>
-                    <li class="nav-link">
-                        <a href="/donor/profile">
-                            <i class='bx bx-user-pin icon' ></i>
-                            <span class="text nav-text">Profile</span>
-                        </a>
-                    </li>
+                    
 
                 </ul>
             </div>
-
-            <div class="bottom-content">
-                <li class="">
-                    <a href="/">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
-                    </a>
-                </li>
-            </div>
         </div>
-
     </nav>
 
     <section class="home">
-        
+        <div style="position: relative; width: 100%; height:100%; padding-top: 56.2500%;
+        padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);overflow: hidden;
+        border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+            src="<%= stateData.videoURL %>" allowfullscreen="allowfullscreen" allow="fullscreen" autoplay muted>
+        </iframe>
+        </div>
+    </section>
 
     <script>
     	const body = document.querySelector('body'),

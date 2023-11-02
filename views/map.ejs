@@ -9,14 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7aa1c87325.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
+    
     <div class="video-container">
+        
         <video id="background-video" autoplay loop muted>
             <source src="bgdarker.mp4" type="video/mp4">
         </video>
         <div class="header-container">
+        <a href="#"><img src="../assets/img/logo2 (3).jpg" class="logo"></a>
           <p class="header">EKTA</p>
           <p class="tagline">A digital Odessey of India's diverse heritage and culture</p>
       </div>
@@ -26,41 +30,74 @@
     <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
     <div id="chartdiv"></div>
     <script src="../assets/js/map.js"></script>
+  
     </div>
 
     <div class="section2">
-      <!-- <p class="journey">~ Welcome to the journey of a lifetime ~</p> -->
       <img src="../assets/img/banner.png" alt="" class="banner">
-      <div class="container">
+      <div class="container1">
             <a href=""><img src="../assets/img/lh.png" alt="" class="img2"></a>
-            <a href=""><img src="../assets/img/ac.png" alt="" class="img2"></a>
+            <a href="/index"><img src="../assets/img/ac.png" alt="" class="img2"></a>
             <a href=""><img src="../assets/img/md.png" alt="" class="img2"></a>
     </div>
-
-    <svg class="arrows">
-      <path class="a1" d="M0 0 L30 32 L60 0"></path>
-      <path class="a2" d="M0 20 L30 52 L60 20"></path>
-      <path class="a3" d="M0 40 L30 72 L60 40"></path>
-    </svg>
 
     </div>
 
     <div class="section3">
-      <p class="heading3">Explore</p>
+      <img src="/assets/img/banner2.png" alt="">
       <div class="container">
-        <div class="column">
-            <img src="/assets/img/crafts.png" alt="Image 1" class="s3">
-            <a href=""><p class="info">Local Handicrafts</p></a>
-        </div>
-        <div class="column">
-            <img src="/assets/img/food.jpg" alt="Image 2" class="s3">
-            <a href=""><p class="info">Authentic Cuisine</p></a>
-        </div>
-        <div class="column">
-            <img src="/assets/img/dance.jpg" alt="Image 3" class="s3">
-            <a href=""><p class="info">Classical Dance & Music</p></a>
+            <a href=""><img src="/assets/img/class.png" alt="Image 1" class="s3"></a>
+            <a href=""><img src="/assets/img/com.png" alt="Image 2" class="s3"></a>
+            <a href="/calendar"><img src="/assets/img/cal.png" alt="Image 3" class="s3"></a>
         </div>
     </div>
-    </div>
+
+    <section class="contact" id="contact">
+        <div class="wrapper1">
+            <div class="title1">
+              <h1>Contact us</h1>
+            </div>
+            <div class="contact-form">
+                <form action = "mailto:ekta@gmail.com" enctype="text/plain">
+                <div class="input-fields">
+                <input type="text" class="input"  placeholder="Name" name="name">
+                <input type="email" class="input"  placeholder="Email Address" name="email" pattern=".+@gmail\.com">
+                <input type="phone" class="input"  placeholder="Phone" name="phone">
+                <input type="text" class="input"  placeholder="Subject" name="subject">
+              </div>
+              <div class="msg">
+                <textarea placeholder="Message" name="message"></textarea> <br>
+                <div class="btn1"><button type="submit">Send <i class="uil uil-message"></i></div>
+              </div>
+              </form>
+            </div>
+            </div>
+    </section>
+
+    <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Quick links</h3>
+                    <a href="/">Home</a>    
+                    <a href="#packages">Dance & Music</a>
+                    <a href="/explore">Cuisine</a>
+                </div>
+
+                <div class="box">
+                    <h3>Official links</h3>
+                    <a href="https://www.indiaculture.gov.in/">Ministry of Culture</a>
+                    <a href="https://www.sangeetnatak.gov.in/">Sangeet Natak Akademi</a>
+                    <a href="https://sahitya-akademi.gov.in/">Sahitya Akademi</a>
+                </div>
+        
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="tel:+918115585868"> <i class="fas fa-phone"></i> +91 8115594949 </a>
+                    <a href="mailto:ekta@gmail.com"> <i class="fas fa-envelope"></i> ekta@gmail.com </a>
+                    <a href="#"> <i class="fas fa-map"></i> Bangalore, India - 560030 </a>
+                </div>
+            </div>
+            <div class="credit">Created by Ekta with <i class="fa-solid fa-heart"></i> | All Rights Reserved</div>
+        </section>  
 </body>
 </html>

@@ -196,7 +196,7 @@ polygonSeries.data = [
         console.log(stateName);
 
         var linkHref = "/statePage/" + stateName;
-        window.open(linkHref, '_blank','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=no,menubar=no,status=no,location=no');
+        window.open(linkHref, '_blank');
        
     }
     
