@@ -5,6 +5,7 @@ const ejs = require('ejs');
 const mapRoutes = require("./routes/map.js");
 const culRoutes = require("./routes/culinary.js")
 const danceRoutes = require("./routes/dance.js")
+const musicRoutes = require("./routes/music.js")
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
 require("./config/dbConnection.js");
@@ -13,6 +14,7 @@ require("./config/dbConnection.js");
 app.use(mapRoutes);
 app.use(culRoutes);
 app.use(danceRoutes);
+app.use(musicRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
