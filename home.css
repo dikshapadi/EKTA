@@ -46,7 +46,7 @@
 
 
 .section2{
-    background-image: url(sec2.jpg);
+    background-image: url(sec2.jpeg);
     height: 643px;
     width: 1280px;
     background-repeat: no-repeat;
@@ -58,6 +58,7 @@
     text-align: center;
     padding-top: 180px;
     font-size: 60px;
+    color: white;
     text-shadow: 1px 1px 3px #999;
 }   
 
