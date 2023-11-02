@@ -222,9 +222,14 @@ select::-ms-expand {
   overflow: hidden;
   margin-top: 3rem;
   justify-content: center;
-  box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+
+  /* border: 1px rgb(202, 161, 37) outset ; */
+  /* box-shadow: 0 0 1em #26489a; */
   /* align-items: center; */
 }
+
+
+
 /* Arrow */
 .select::after {
   content: '\25BC';
@@ -237,9 +242,13 @@ select::-ms-expand {
   pointer-events: none;
   box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
 }
+
+
+
 /* Transition */
-.select:hover::after {
+.select:hover{
   color: #f39c12;
+  box-shadow: 0 0 1em rgb(202, 161, 37);
 }
 
 
