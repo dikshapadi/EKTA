@@ -15,7 +15,7 @@ const storyRoutes = require("./routes/story.js")
 const gamesRoutes = require("./routes/games.js")
 
 require("dotenv").config();
-require("./config/dbConnection.js")();
+require("./config/dbConnection.js");
 require("./config/passport.js")(passport);
 
 app.set("view engine", "ejs");

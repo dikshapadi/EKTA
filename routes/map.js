@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const bodyParser = require('body-parser');
-const middleware = require('');
+const middleware = require("../middleware/index");
 
 // Import your Mongoose model
 const model = require('../models/model');
