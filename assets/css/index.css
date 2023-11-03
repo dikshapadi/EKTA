@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.firstlogo{
+  width: 20%;
+  height: 20%;
+  }
+  
+.ektalogo{
+    width: 30%;
+    height: 30%;
+   border-radius: 50%;
+}
+
 .banner{
     width: 100%;
     height: 100vh;
@@ -222,9 +233,14 @@ select::-ms-expand {
   overflow: hidden;
   margin-top: 3rem;
   justify-content: center;
-  box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+
+  /* border: 1px rgb(202, 161, 37) outset ; */
+  /* box-shadow: 0 0 1em #26489a; */
   /* align-items: center; */
 }
+
+
+
 /* Arrow */
 .select::after {
   content: '\25BC';
@@ -237,9 +253,13 @@ select::-ms-expand {
   pointer-events: none;
   box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
 }
+
+
+
 /* Transition */
-.select:hover::after {
+.select:hover{
   color: #f39c12;
+  box-shadow: 0 0 1em rgb(202, 161, 37);
 }
 
 
@@ -291,11 +311,11 @@ select::-ms-expand {
   }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url(img/img1.6.jpeg);
+    background-image: url("../img/img1.6.jpeg");
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url(img/img1.7.jpg);
+    background-image: url("../img/img1.7.jpg");
 }
 
 
