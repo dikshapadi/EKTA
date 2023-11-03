@@ -1,9 +1,11 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/music", (req,res) => {
-	res.render("music");
+router.get("/story", (req,res) => {
+	res.render("story");
 });
+
+
 
 
 module.exports = router;	

@@ -7,7 +7,8 @@ const stateInfoSchema = new mongoose.Schema({
   music: String,
   dance: String,
   imageURL: Array,
-  videoURL:String
+  videoURL:String,
+  lang: String
 }, { collection: 'States' });
 
 module.exports = mongoose.model('StateInfo', stateInfoSchema);

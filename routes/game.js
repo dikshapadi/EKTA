@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/music", (req,res) => {
-	res.render("music");
+router.get("/game", (req,res) => {
+	res.render("game");
 });
 
 
