@@ -1,5 +1,8 @@
 const express = require("express");
 const router = express.Router();
+const bodyParser = require('body-parser');
+const middleware = require("../middleware/index");
+
 // Import your Mongoose model
 const model = require('../models/model');
 
@@ -27,6 +30,11 @@ router.get('/statePage/:stateName', async (req, res) => {
 
 router.get("/calendar", (req,res) => {
 	res.render("calendar");
+});
+
+
+router.get("/auth/signup", middleware.ensureNotLoggedIn, (req,res) => {
+	res.render("auth/signup", { title: "User Signup" });
 });
 
 

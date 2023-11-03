@@ -1,66 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slide Puzzle</title>
+        <link rel="stylesheet" href="/assets/css/puzzle.css">
+        <script src="/assets/js/puzzle.js"></script>
+    </head>
 
-        .puzzle-container {
-            position: relative;
-        }
-
-        .puzzle-piece {
-            position: absolute;
-            cursor: pointer;
-            background: url('/assets/img/tajmahal.jpg');
-            background-size: 400px 400px;
-            width: 200px;
-            height: 200px;
-        }
-    </style>
-</head>
-<body>
-    <div class="puzzle-container">
-        <div class="puzzle-piece" style="background-position: 0 0;"></div>
-        <div class="puzzle-piece" style="background-position: -200px 0;"></div>
-        <div class="puzzle-piece" style="background-position: 0 -200px;"></div>
-        <div class="puzzle-piece" style="background-position: -200px -200px;"></div>
-    </div>
-
-    <script>
-        const puzzlePieces = document.querySelectorAll('.puzzle-piece');
-        let isDragging = false;
-        let activePiece = null;
-        let offsetX, offsetY;
-
-        puzzlePieces.forEach(piece => {
-            piece.addEventListener('mousedown', (e) => {
-                isDragging = true;
-                activePiece = piece;
-                activePiece.style.zIndex = '2';
-                const rect = piece.getBoundingClientRect();
-                offsetX = e.clientX - rect.left;
-                offsetY = e.clientY - rect.top;
-            });
-
-            piece.addEventListener('mouseup', () => {
-                isDragging = false;
-                activePiece = null;
-                piece.style.zIndex = '1';
-            });
-        });
-
-        document.addEventListener('mousemove', (e) => {
-            if (isDragging && activePiece) {
-                activePiece.style.left = e.clientX - offsetX + 'px';
-                activePiece.style.top = e.clientY - offsetY + 'px';
-            }
-        });
-    </script>
-</body>
+    <body>
+        <img id="title" src="./logo.png">
+        <div id="board">
+        </div>
+        <h1>Turns: <span id="turns">0</span></h1>
+    </body>
 </html>

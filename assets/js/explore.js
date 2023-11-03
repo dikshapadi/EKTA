@@ -58,9 +58,6 @@ if(state == "Karnataka"){
 
 
 
-
-
-
 else if(state == "Jammu and Kashmir"){
 
     restaurant = {
@@ -79,7 +76,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : yusmarg",
        price: "APPROX COST : Rs.150",
        dish: "RESRTAURANT : Kashmiri Wazwan(yusmarg)",
-       image: "../assets/img/exp2.jpeg",
+       image: "../assets/img/exp2.2.jpeg",
       },
       {
        rname: ". Kashmiri Muji Gaad",
@@ -87,7 +84,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Sonamerg",
        price: "APPROX COST : Rs.350/kg",
        dish: "RESRTAURANT : Ahdoos Restaurant(Sonamerg)",
-       image: "../assets/img/exp4.jpeg",
+       image: "../assets/img/exp2.3.jpeg",
       },
       {
        rname: " Lyodur Tschaman",
@@ -95,7 +92,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Dal Lake",
        price: "APPROX COST : Rs.110",
        dish: "RESRTAURANT : Vishal Dhaba(Dal Lake)",
-       image: "../assets/img/exp3.jpeg",
+       image: "../assets/img/exp2.4.jpeg",
       },
       {
        rname: "Wazwan",
@@ -103,19 +100,11 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :yusmarg",
        price: "APPROX COST : Rs.50",
        dish: "RESRTAURANT : Kashmiri Wazwan(yusmarg)",
-       image: "../assets/img/exp5.jpeg",
+       image: "../assets/img/exp2.5.jpeg",
       },
    ],
    };
    }
-
-
-
-
-
-
-
-
 
    else if(state == "Telangana"){
 
@@ -127,7 +116,7 @@ else if(state == "Jammu and Kashmir"){
            origin: "ORIGIN : Hyderabad",
            price: "APPROX COST : Rs.100",
            dish: "RESRTAURANT : Deccan Pavilion(Hyderabad)",
-           image: "../assets/img/exp1.jpeg",
+           image: "../assets/img/exp3.1.jpeg",
       },
       {
        rname: "Golichina Mamsam",
@@ -135,7 +124,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Warangal",
        price: "APPROX COST : Rs.250",
        dish: "RESRTAURANT : Paradise Restaurant(Warangal)",
-       image: "../assets/img/exp2.jpeg",
+       image: "../assets/img/exp3.2.jpeg",
       },
       {
        rname: "Polelu",
@@ -143,7 +132,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Nizamabad",
        price: "APPROX COST : Rs.50/piece",
        dish: "RESRTAURANT : Ahdoos Restaurant( Nizamabad)",
-       image: "../assets/img/exp4.jpeg",
+       image: "../assets/img/exp3.3.jpeg",
       },
       {
        rname: " Hyderabadi Biryani",
@@ -151,7 +140,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Hyderabad",
        price: "APPROX COST : Rs.110",
        dish: "RESRTAURANT : biryani Dhaba(Hyderabad)",
-       image: "../assets/img/exp3.jpeg",
+       image: "../assets/img/exp3.4.jpeg",
       },
       {
        rname: "Chegodilu",
@@ -159,7 +148,59 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Begumpet",
        price: "APPROX COST : Rs.50",
        dish: "RESRTAURANT : Saffron Soul(Begumpet)",
-       image: "../assets/img/exp5.jpeg",
+       image: "../assets/img/exp3.5.jpeg",
+      },
+   ],
+   };
+   }
+
+
+
+
+
+   else if(state == "Gujarat"){
+
+    restaurant = {
+       data:[
+      {
+           rname: "Dhokla",
+           location: "DESCRIPTION :Gujarat's most frequently cooked and savored cuisines are the soft, spongy, and square-shaped pieces served with chutney.",
+           origin: "ORIGIN : Gujarat.",
+           price: "APPROX COST : Rs.100",
+           dish: "RESRTAURANT : Deccan Pavilion(Gujarat)",
+           image: "../assets/img/exp4.2.jpeg",
+      },
+      {
+       rname: "Thepla",
+       location: "DESCRIPTION :Like thin Parathas served for breakfast, Theplas are flatbreads made of fenugreek leaves, gram flour, and many spices. ",
+       origin: "ORIGIN :  Kutch",
+       price: "APPROX COST : Rs.250",
+       dish: "RESRTAURANT : Anand Restaurants(Kutch)",
+       image: "../assets/img/exp4.3.jpeg",
+      },
+      {
+       rname: " Khichdi",
+       location: "DESCRIPTION :Unlike normal Khichdi, there’s something about Gujarati Khichdi that makes it incredibly delicious. There’s a reason why it’s called the national food of India.",
+       origin: "ORIGIN :  Ahmedabad",
+       price: "APPROX COST : Rs.50/piece",
+       dish: "RESRTAURANT : Ahdoos Restaurant( Ahmedabad)",
+       image: "../assets/img/exp4.4.jpeg",
+      },
+      {
+       rname: "Dabeli",
+       location: "DESCRIPTION :  Texture-wise, both are the same, but Dabeli tastes slightly different.  ",
+       origin: "ORIGIN :Kutch",
+       price: "APPROX COST : Rs.110",
+       dish: "RESRTAURANT : dabeli Dhaba(Kutch)",
+       image: "../assets/img/exp4.5.jpeg",
+      },
+      {
+       rname: "Jalebi",
+       location: "DESCRIPTION : Traditionally, the jalebi recipe is made with a batter of all purpose flour, gram flour (besan), baking soda and water that is fermented for several hours. ",
+       origin: "ORIGIN : Ahmedabad",
+       price: "APPROX COST : Rs.20",
+       dish: "RESRTAURANT : Saffron Soul(Ahmedabad)",
+       image: "../assets/img/exp4.1.jpeg",
       },
    ],
    };
@@ -173,92 +214,53 @@ else if(state == "Jammu and Kashmir"){
 
 
 
-else if (state == "Gujarat") {
-     restaurant = {
-        data:[
-       {
-        rname: "Jalebi",
-        location: "DESCRIPTION : Fried spirals made of gram flour and baking soda, are then soaked in a flavored sugar syrup",
-        origin: "ORIGIN : Amriti",
-        price: "APPROX COST : Rs.200/kg",
-        dish: "RESRTAURANT : Chinnarvilla Restaurant(Ahmedabad)",
-        image: "../assets/img/exp3.1.jpeg",
-       },
-       {
-        rname: "Dhokla",
-        location: "DESCRIPTION :  Savoury sponge dish, made with a fermented batter that is steamed to a cake-like consistency",
-        origin: "ORIGIN : Gujarat",
-        price: "APPROX COST : Rs.350/kg",
-        dish: "RESRTAURANT : Janki Kaman(Ahmedabad)",
-        image: "../assets/img/img1.5.jpeg",
-       },
-       {
-        rname: "Thepla",
-        location: "DESCRIPTION :  Flatbreads made of fenugreek leaves, gram flour, and many spices",
-        origin: "ORIGIN : Vadodara",
-        price: "APPROX COST : Rs.100",
-        dish: "RESRTAURANT : Masi Na Thepla(Ahmedabad)",
-        image: "../assets/img/exp3.3.jpeg",
-       },
-       {
-        rname: "The Jungle Bhookh",
-        location: "Address : Wall Street-1, 103/B,, Shahid Veer Kinariwala Marg, opp. Orient Club, Ellis Bridge, Ahmedabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Malai Kofta, Paneer Butter Masala",
-        image: "../assets/img/exp3.4.jpeg",
-       },
-       {
-        rname: "Agashiye",
-        location: "Address : The House of Mangaldas Girdhardas, Opp. Sidi Saiyad Jali, Lal Darwaja,, Ahmedabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Farsan, Kadhi, Sweets",
-        image: "../assets/img/exp3.5.jpeg",
-       },
-    ],
-    };
-}
+   else{
 
-else{
-     restaurant = {
-        data:[
-       {
-            rname: "Mahamaya",
-            location: "Address : Matilal Nehru Road and, Ananda Ram Baruah Rd, Pan Bazaar, Guwahati, Assam 781001",
-            price: "Approx Cost : Rs.200",
-            dish: "Speciality : Paratha Sabji, Fish Thali",
-            image: "../assets/img/exp5.1.jpeg",
-       },
-       {
-        rname: "Reboti Chat House",
-        location: "Address : Gopinath Bordoloi Rd, Pan Bazaar, Guwahati, Assam 781001",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Reboti Special Chowmein",
-        image: "../assets/img/exp5.2.jpeg",
-       },
-       {
-        rname: "Ashoka Restaurant",
-        location: "Address : H B Road, Pan Bazaar, Guwahati - 781001 ",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Kalakand, Kheer Pitha, and Kata Nimkee",
-        image: "../assets/img/exp5.4.jpeg",
-       },
-       {
-        rname: "Lakhi Cabin",
-        location: "Address : Hem Baruah Rd, Kamarpatty, Fancy Bazaar, Guwahati, Assam 781001",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Aloo-Matar Samosa, Masala Kachori",
-        image: "../assets/img/exp5.3.jpeg",
-       },
-       {
-        rname: "Hotel Nayab",
-        location: "Address : Nayapul Road, Nassir Complex, Chatta Bazar, Darulshifa, Hyderabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Paya, Khichdi, Keema",
-        image: "../assets/img/exp4.2.jpeg",
-       },
-    ],
-    };
-}
+    restaurant = {
+       data:[
+      {
+           rname: "Momos",
+           location: "DESCRIPTION :Momos, a popular Asian snack, are dumplings filled with savory ingredients, often served with a delicious dipping sauce..",
+           origin: "ORIGIN : Guwahati",
+           price: "APPROX COST : Rs.100",
+           dish: "RESRTAURANT : Deccan Pavilion(Guwahati)",
+           image: "../assets/img/exp5.1.jpeg",
+      },
+      {
+       rname: " Maasor Tenga",
+       location: "DESCRIPTION :A household favourite, this graceful dish of Assamese cuisine is extremely refreshing on the palette. The fish is slow cooked in a rich,tangy broth made with tomato, outenga(elephant ear), and lemon. ",
+       origin: "ORIGIN :  Kaziranga",
+       price: "APPROX COST : Rs.250",
+       dish: "RESRTAURANT : Anand Restaurants(kaziranga)",
+       image: "../assets/img/exp5.2.jpeg",
+      },
+      {
+       rname: "Khaar",
+       location: "DESCRIPTION :When it comes to main food of Assam, Khaar is a non vegetarian dish that comes on top. This meat delicacy is made from the main ingredient khaar on which it is named and also has raw papaya, pulses, and taro.",
+       origin: "ORIGIN :  kaziranga",
+       price: "APPROX COST : Rs.50/piece",
+       dish: "RESRTAURANT : Ahdoos Restaurant( Kaziranga)",
+       image: "../assets/img/exp5.3.jpeg",
+      },
+      {
+       rname: " Duck Meat Curry",
+       location: "DESCRIPTION :  Another one of Assam’s special food items, duck meat is a dish generally reserved for special occasions. If cooked properly, the dish can blow you away thanks to the use of whole spices.",
+       origin: "ORIGIN :guwahati",
+       price: "APPROX COST : Rs.210",
+       dish: "RESRTAURANT : dabeli Dhaba(guwahati)",
+       image: "../assets/img/exp5.4.jpeg",
+      },
+      {
+       rname: "Aloo Pitika",
+       location: "DESCRIPTION : This is the Assamese version of mashed potatoes and is an excellent side dish for lunch and dinner.  ",
+       origin: "ORIGIN : Kaziranga",
+       price: "APPROX COST : Rs.20",
+       dish: "RESRTAURANT : Saffron Soul(Kaziranga)",
+       image: "../assets/img/exp5.5.jpeg",
+      },
+   ],
+   };
+   }
 
 for(let i of restaurant.data){
     let card = document.createElement("div");
