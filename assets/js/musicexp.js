@@ -53,8 +53,8 @@ else if (state == "Telangana")
     dance = {
         data:[
        {
-            dname: "Perini Sivatandavam",
-            desc: "Perini Sivatandavam is a traditional dance form from the Indian state of Andhra Pradesh. It is a dynamic and vigorous dance, typically performed by male dancers, depicting the cosmic dance of Lord Shiva. The dance involves intricate footwork, powerful movements, and dramatic expressions, making it a visually captivating art form deeply rooted in Hindu mythology and history.",
+            dname: "Oggu Katha",
+            desc: "Oggu Katha is a traditional and folk form of Telugu musical storytelling that has its roots in the Telangana region of India. It is a unique and centuries-old art form that combines music, dance, and storytelling to narrate epic tales, historical events, and mythological stories. ",
             image: "../assets/img/sivatandavam.png",
        },
     ],
@@ -66,8 +66,8 @@ else if (state == "Assam")
     dance = {
         data:[
        {
-            dname: "Bihu",
-            desc: "Bihu is a vibrant and energetic folk dance and festival celebrated in the Indian state of Assam. It marks the harvest season and features lively dance performances to the rhythmic beats of traditional Assamese music. Bihu is a cultural celebration that signifies the joy and abundance of the Assamese community, with colorful costumes and traditional rituals.",
+            dname: "Bihu Music",
+            desc: "Bihu is the most celebrated festival in Assam, and Bihu songs and music are an integral part of this festival. Bihu songs, often accompanied by the dhol (drum) and pepa (buffalo horn pipe), are lively and energetic. They are performed during Bihu dance and represent the different stages of agricultural life.",
             image: "../assets/img/bihu.jpg",
        },
     ],
