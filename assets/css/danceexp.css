@@ -237,7 +237,8 @@ h2{
 }
 
 .card{
-    background-color: #23242a45;
+    /* background-color: #23242a45; */
+    background-color: wheat;
     max-width: 60em;
     margin-top: 1em;
     padding: 1em;
@@ -298,7 +299,8 @@ img{
 
 .card:hover{
     color: black;
-    background-color: #5f606454;
+    /* background-color: #5f606454; */
+    background-color: brown;
 }
 
 .hide{
