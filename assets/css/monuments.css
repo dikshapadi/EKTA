@@ -1,24 +1,17 @@
 body {
-    background: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ab11Sd8rLKTjvNQNW9GEuv2Ww1odtlroIg&usqp=CAU  ');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .box {
-    position: relative;
-  }
-  .box::before {
-    content: "";
-    width: 440px;
-    height: 440px;
-    background-color: #89cff0;
     position: absolute;
-    z-index: -1;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-  }
-  .box-body {
+    transform: translate(-50%, -50%);  }
+
+  .box-body { 
+
     position: relative;
     height: 200px;
     width: 200px;
@@ -28,7 +21,9 @@ body {
     border-bottom-right-radius: 5%;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
     background: linear-gradient(#762c2c,#ff0303);
+
   }
+  
   .box-body .img{
     opacity: 0;
     transform: translateY(0%);
