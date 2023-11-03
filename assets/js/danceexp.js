@@ -34,7 +34,7 @@ else if (state == "Gujarat")
 };
 }
 
-else if (state == "Jammu & Kashmir")
+else if (state == "Jammu and Kashmir")
 {
     dance = {
         data:[
@@ -55,7 +55,7 @@ else if (state == "Telangana")
        {
             dname: "Perini Sivatandavam",
             desc: "Perini Sivatandavam is a traditional dance form from the Indian state of Andhra Pradesh. It is a dynamic and vigorous dance, typically performed by male dancers, depicting the cosmic dance of Lord Shiva. The dance involves intricate footwork, powerful movements, and dramatic expressions, making it a visually captivating art form deeply rooted in Hindu mythology and history.",
-            image: "../assets/img/sivatandavam.jpg",
+            image: "../assets/img/sivatandavam.png",
        },
     ],
 };
