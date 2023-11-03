@@ -4,6 +4,16 @@
 
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        
+    .calendar {
+        display: none;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+        border-radius: 8px;
+    }
+    </style>
 </head>
 
     <nav class="sidebar close">
@@ -51,10 +61,17 @@
                             <span class="text nav-text">Play a game</span>
                         </a>
                     </li>
+                    <li class="nav-link">
+                        <a href=""  onclick="showCalendar()">
+                            <i class='bx bx-gift icon' ></i>
+                            <span class="text nav-text">Hidden treasures</span>
+                        </a>
+                    </li>
+
                     
 
                 </ul>
-                <br>          
+                     
                 <div id="google_translate_element"></div>
             </div>
         </div>
@@ -68,6 +85,10 @@
         </iframe>
         </div>
     </section>
+    <section class="calendar" id="calendarSection" style="display: none;">
+        <p>Calendar here!</p>
+    </section>
+    
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script>
@@ -89,6 +110,17 @@
           'google_translate_element'
         );
       }
+      
+      function showCalendar() {
+        const homeSection = document.getElementById('home');
+        const calendarSection = document.getElementById('calendarSection');
+
+        // Hide the home section (iframe)
+        homeSection.style.display = 'none';
+
+        // Display the calendar section
+        calendarSection.style.display = 'block';
+    }
     </script>
 
 
