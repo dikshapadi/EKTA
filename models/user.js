@@ -21,6 +21,15 @@ const userSchema = new mongoose.Schema({
 		type: String,
 		enum: ["male", "female"]
 	},
+	joinedTime: {
+		type: Date,
+		default: Date.now
+	},
+	role: {
+		type: String,
+		enum: ["admin", "faculty", "staff"],
+		required: true
+	},
 	address: {
 		type: String,
 		//required: true
@@ -30,7 +39,7 @@ const userSchema = new mongoose.Schema({
 		//required: true
 	},
 
-},{ collection: 'Users' });
+});
 
 const User = mongoose.model("users", userSchema);
 module.exports = User;
