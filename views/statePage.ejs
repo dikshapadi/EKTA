@@ -40,18 +40,17 @@
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="/dance/#music1" target="_blank">
+                        <a href="/dance?state=<%= stateData.stateName%>" target="_blank">
                             <i class='bx bx-walk icon' ></i>
                             <span class="text nav-text">Dance</span>
                         </a>
                     </li>
-                    
-
                 </ul>
+                <br>          
+                <div id="google_translate_element"></div>
             </div>
         </div>
     </nav>
-
     <section class="home">
         <div style="position: relative; width: 100%; height:100%; padding-top: 56.2500%;
         padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);overflow: hidden;
@@ -61,6 +60,7 @@
         </iframe>
         </div>
     </section>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script>
     	const body = document.querySelector('body'),
@@ -71,6 +71,16 @@
         modeText = body.querySelector(".mode-text");
 
 		toggle.addEventListener("click" , () =>{sidebar.classList.toggle("close");})
+
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: 'en',
+            includedLanguages: '<%= stateData.lang%>'
+          },
+          'google_translate_element'
+        );
+      }
     </script>
 
 
