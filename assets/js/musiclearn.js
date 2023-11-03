@@ -17,7 +17,7 @@ if(state == "Karnataka"){
         location: "123, South Bangalore Road, Bangalore, Karnataka",
         price: "Rs.1000 Per Person for 1 week",
         // dish: "Dishes : Masala Dosa, Ragi Mudde, Mysore Pak",
-        image: "../assets/img/learn.1.jpeg",
+        image: "../assets/img/music9.jpg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
    },
    {
@@ -25,7 +25,7 @@ if(state == "Karnataka"){
     location: "Address : Mangalorean Fish Curry, Neer Dosa, Goli Baje",
     price: "Cost : Rs.2000 Per Person for 1 week",
     // dish: "Dishes : Mangalorean Fish Curry, Neer Dosa, Goli Baje",
-    image: "../assets/img/learn.2.jpeg",
+    image: "../assets/img/musicteacher2.jpeg",
     contact: "Email: info@coastalkarnatakaflavors.com, Phone: +91 987-654-3210"
    },
    {
@@ -33,7 +33,7 @@ if(state == "Karnataka"){
     location: "K789, North Karnataka Street, Hubli, Karnatakat",
     price: "Cost : Rs.650 Per Person",
     // dish: "Dishes : Jolada Rotti, Enne Badanekayi, Holige",
-    image: "../assets/img/learn.3.jpeg",
+    image: "../assets/img/musicteacher3.jpg",
     contact: "Email: info@northkarnatakasavoring.com, Phone: +91 765-432-1098"
    },
 //    {
@@ -65,7 +65,7 @@ else if (state == "Jammu and Kashmir")
             location: "Kumarswamy Layout",
             price: "Rs.200 Per Person",
             // dish: "Dosa",
-            image: "../assets/img/learn.1.jpeg",
+            image: "../assets/img/music9.jpg",
             contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
@@ -73,7 +73,7 @@ else if (state == "Jammu and Kashmir")
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.2.jpeg",
+        image: "../assets/img/musicteacher2.jpeg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
@@ -81,7 +81,7 @@ else if (state == "Jammu and Kashmir")
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.3.jpeg",
+        image: "../assets/img/musicteacher3.jpg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
     //    {
@@ -110,7 +110,7 @@ else if (state == "Telangana"){
             location: "Kumarswamy Layout",
             price: "Rs.200 Per Person",
             // dish: "Dosa",
-            image: "../assets/img/learn.1.jpeg",
+            image: "../assets/img/music9.jpg",
             contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
@@ -118,7 +118,7 @@ else if (state == "Telangana"){
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.2.jpeg",
+        image: "../assets/img/musicteacher2.jpeg",
         contact: "Email: info@karnathbfakamusic.com, Phone: +91 123-456-7890"
        },
        {
@@ -126,7 +126,7 @@ else if (state == "Telangana"){
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.3.jpeg",
+        image: "../assets/img/musicteacher3.jpg",
         contact: "Email: info@khysbjcarnatakamusic.com, Phone: +91 123-456-7890"
        },
     //    {
@@ -155,23 +155,23 @@ else if (state == "Gujarat") {
             location: "Kumarswamy Layout",
             price: "Rs.400 Per Person",
             // dish: "Dosa",
-            image: "../assets/img/learn.1.jpeg",
+            image: "../assets/img/music9.jpg",
             contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
-        rname: "Udupi Swaad",
+        rname: "Swag Gujarati",
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.2.jpeg",
+        image: "../assets/img/musicteacher2.jpeg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
-        rname: "Udupi Swaad",
+        rname: "traditional dance school",
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.3.jpeg",
+        image: "../assets/img/musicteacher3.jpg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
     //    {
@@ -200,7 +200,7 @@ else{
             location: "Kumarswamy Layout",
             price: "Rs.200 Per Person",
             // dish: "Dosa",
-            image: "../assets/img/learn.1.jpeg",
+            image: "../assets/img/music9.jpg",
             contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
@@ -208,7 +208,7 @@ else{
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.2.jpeg",
+        image: "../assets/img/musicteacher2.jpeg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
        {
@@ -216,7 +216,7 @@ else{
         location: "Kumarswamy Layout",
         price: "Rs.200 Per Person",
         // dish: "Dosa",
-        image: "../assets/img/learn.3.jpeg",
+        image: "../assets/img/musicteacher3.jpg",
         contact: "Email: info@karnatakamusic.com, Phone: +91 123-456-7890"
        },
     //    {
