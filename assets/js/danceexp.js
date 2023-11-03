@@ -21,176 +21,60 @@ if(state == "Karnataka"){
 };
 }
 
-else if (state == "Punjab")
+else if (state == "Gujarat")
 {
-     restaurant = {
+    dance = {
         data:[
        {
-            rname: "Punjabi Grand",
-            location: "Kumarswamy Layout",
-            price: "Rs.200 Per Person",
-            dish: "Dosa",
-            image: "../assets/img/img1.1.jpeg",
-       },
-       {
-        rname: "Punjabi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.2.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.3.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.4.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.5.jpeg",
+            dname: "Garba",
+            desc: "Garba is a traditional Indian dance form that originated in the state of Gujarat. It is known for its vibrant and rhythmic movements, often performed during the Navratri festival, with participants dancing in circles to folk music. The dance celebrates the Hindu goddess Durga and is a symbol of community spirit and unity.",
+            image: "../assets/img/garba.jpg",
        },
     ],
-    };
+};
 }
 
-else if (state == "Delhi"){
-     restaurant = {
+else if (state == "Jammu and Kashmir")
+{
+    dance = {
         data:[
        {
-            rname: "Udupi Grand",
-            location: "Kumarswamy Layout",
-            price: "Rs.200 Per Person",
-            dish: "Dosa",
-            image: "../assets/img/img1.1.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.2.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.3.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.4.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.5.jpeg",
+            dname: "Rouf",
+            desc: "Rouf dance is a traditional folk dance from the Kashmir Valley in India. It is characterized by graceful movements and intricate footwork performed by women during festive occasions. The dance reflects the rich cultural heritage of Kashmir and often involves the use of traditional attire and jewelry.",
+            image: "../assets/img/rouf.jpg",
        },
     ],
-    };
+};
 }
+     
 
-else if (state == "Kerala") {
-     restaurant = {
+else if (state == "Telangana")
+{
+    dance = {
         data:[
        {
-            rname: "Udupi Grand",
-            location: "Kumarswamy Layout",
-            price: "Rs.200 Per Person",
-            dish: "Dosa",
-            image: "../assets/img/img1.1.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.2.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.3.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.4.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.5.jpeg",
+            dname: "Perini Sivatandavam",
+            desc: "Perini Sivatandavam is a traditional dance form from the Indian state of Andhra Pradesh. It is a dynamic and vigorous dance, typically performed by male dancers, depicting the cosmic dance of Lord Shiva. The dance involves intricate footwork, powerful movements, and dramatic expressions, making it a visually captivating art form deeply rooted in Hindu mythology and history.",
+            image: "../assets/img/sivatandavam.png",
        },
     ],
-    };
+};
 }
 
-else{
-     restaurant = {
+else if (state == "Assam")
+{
+    dance = {
         data:[
        {
-            rname: "Vidyarthi Bhawan",
-            location: "Kumarswamy Layout",
-            price: "Rs.200 Per Person",
-            dish: "Dosa",
-            image: "../assets/img/exp1.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.2.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.3.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.4.jpeg",
-       },
-       {
-        rname: "Udupi Swaad",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
-        image: "../assets/img/img1.5.jpeg",
+            dname: "Bihu",
+            desc: "Bihu is a vibrant and energetic folk dance and festival celebrated in the Indian state of Assam. It marks the harvest season and features lively dance performances to the rhythmic beats of traditional Assamese music. Bihu is a cultural celebration that signifies the joy and abundance of the Assamese community, with colorful costumes and traditional rituals.",
+            image: "../assets/img/bihu.jpg",
        },
     ],
-    };
+};
 }
 
-for(let i of restaurant.data){
+for(let i of dance.data){
     let card = document.createElement("div");
     card.classList.add("card");
     let imgcontainer = document.createElement("div");
