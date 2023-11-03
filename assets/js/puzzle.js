@@ -8,7 +8,7 @@ var otherTile; //blank tile
 var turns = 0;
 
 // var imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-var imgOrder = ["../assets/img/4.jpg", "../assets/img/2.jpg", "../assets/img/8.jpg", "../assets/img/5.jpg", "../assets/img/1.jpg", "../assets/img/6.jpg", "../assets/img/7.jpg", "../assets/img/9.jpg", "../assets/img/3.jpg"];
+var imgOrder = ["../../image_part_004", "../../image_part_002", "../../image_part_008", "../../image_part_005", "../../image_part_001", "../../image_part_006", "../../image_part_007", "../../image_part_009", "../../image_part_003"];
 
 window.onload = function() {
     for (let r=0; r < rows; r++) {
