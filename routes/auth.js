@@ -6,9 +6,8 @@ const passport = require("passport");
 const middleware = require("../middleware/index.js")
 
 router.get("/auth/signup", middleware.ensureNotLoggedIn, (req,res) => {
-	res.render("auth/signup", { title: "User Signup" });
+	res.render("signup", { title: "User Signup" });
 });
-
 
 router.post("/auth/signup", middleware.ensureNotLoggedIn, async (req,res) => {
 	
@@ -25,7 +24,7 @@ router.post("/auth/signup", middleware.ensureNotLoggedIn, async (req,res) => {
 		errors.push({ msg: "Password length should be atleast 4 characters" });
 	}
 	if(errors.length > 0) {
-		return res.render("auth/signup", {
+		return res.render("signup", {
 			title: "User Signup",
 			errors, firstName, lastName, email, password1, password2
 		});
@@ -43,8 +42,9 @@ router.post("/auth/signup", middleware.ensureNotLoggedIn, async (req,res) => {
 				firstName, lastName, errors, email, password1, password2
 			});
 		}
+		
 		console.log("i");
-		const newUser = new User({ firstName, lastName, email, password:password1, role });	
+		const newUser = new User({ firstName, lastName, email, password:password1 });	
 		console.log("hi");
 		const salt = bcrypt.genSaltSync(10);
 		console.log("hi2");
@@ -66,18 +66,8 @@ router.post("/auth/signup", middleware.ensureNotLoggedIn, async (req,res) => {
 });
 
 router.get("/auth/login", middleware.ensureNotLoggedIn, (req,res) => {
-	res.render("auth/login", { title: "User login" });
+	res.render("login", { title: "User login" });
 });
-
-router.post("/auth/login", middleware.ensureNotLoggedIn,
-	passport.authenticate('local', {
-		failureRedirect: "/auth/login",
-		failureFlash: true,
-		successFlash: true
-	}), (req,res) => {
-		res.redirect(req.session.returnTo || `/${req.user.role}/dashboard`);
-	}
-);
 
 router.get("/auth/logout", (req,res) => {
 	req.logout(function(err) {
