@@ -9,4 +9,8 @@ router.get("/danceexp", (req,res) => {
 	res.render("danceexp");
 });
 
+router.get("/dancelearn", (req,res) => {
+	res.render("dancelearn");
+});
+
 module.exports = router;	
