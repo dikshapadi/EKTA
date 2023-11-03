@@ -79,9 +79,6 @@
           </div>
         </article>  
       </section>
-      <!-- <a href="learn.html" >
-        <button type="button" class="btn btn-outline-warning learn-btn" style="border-color:#ffa600;"> Discover Now </button>
-        </a> -->
     </div>
     <script>
 
@@ -103,18 +100,16 @@
 
         // Initial update based on the current URL
         updateSelectedOption();
-      
-
-
+    
 
 document.getElementById("explore-btn").addEventListener("click", function () {
     const selectedState = document.getElementById("select-state").value;
-    window.location.href = `explore?state=${selectState.value}`;
+    window.location.href = `danceexp?state=${selectState.value}`;
 });
 
 document.getElementById("learn-btn").addEventListener("click", function () {
     const selectedState = document.getElementById("select-state").value;
-    window.location.href = `learn?state=${selectState.value}`;
+    window.location.href = `dancelearn?state=${selectState.value}`;
 });
 </script>
 

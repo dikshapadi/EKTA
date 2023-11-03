@@ -6,46 +6,16 @@ const state = urlParams.get("state");
 console.log(`You Have selected: ${state}`);
 
 document.getElementById("header").innerHTML = state;
-var restaurant;
+var dance;
 
 if(state == "Karnataka"){
 
- restaurant = {
+ dance = {
     data:[
    {
-        rname: "Vidyarthi Bhawan",
-        location: "Address : 32, Gandhi Bazaar Main Rd, Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004",
-        price: "Approx Cost : Rs.100",
-        dish: "Speciality : Masala Dosa",
-        image: "../assets/img/exp1.jpeg",
-   },
-   {
-    rname: "Machali",
-    location: "Behind Ocean Pearl, Sharada Vidyalaya Rd, Kodailbail, Mangaluru, Karnataka 575003",
-    price: "Approx Cost : Rs.200",
-    dish: "Speciality: Fish curry, Neer Dosa, Manglore Buns",
-    image: "../assets/img/exp2.jpeg",
-   },
-   {
-    rname: "Old Sagar Benne Dose",
-    location: "Mahila Samaja complex, Prince Jayachamaraja Wodeyar, Hadadi Rd, PravasiMandir road, Davanagere, 02",
-    price: "Approx Cost : Rs.100",
-    dish: "Benne Dose, ",
-    image: "../assets/img/exp3.jpeg",
-   },
-   {
-    rname: "Udupi Swaad",
-    location: "Kumarswamy Layout",
-    price: "Rs.200 Per Person",
-    dish: "Dosa",
-    image: "../assets/img/img1.4.jpeg",
-   },
-   {
-    rname: "Udupi Swaad",
-    location: "Kumarswamy Layout",
-    price: "Rs.200 Per Person",
-    dish: "Dosa",
-    image: "../assets/img/img1.5.jpeg",
+        dname: "Yakshagana",
+        desc: "Yakshagana, dance-drama of South India, associated most strongly with the state of Karnataka. Elaborate and colourful costumes, makeup, and masks constitute some of the most-striking features of the art form. Traditionally, yakshagana was performed in the open air by all-male troupes sponsored by various Hindu temples. Yakshagana typically presents stories from Hindu epics like the Mahabharata, Ramayana, and the Puranas, as well as local folklore. The performances often revolve around the triumph of good over evil and the tales of gods, goddesses, and heroes.The performers of Yakshagana wear vibrant and ornate costumes, including colorful headgear, masks, and makeup. The characters are easily distinguishable, and the costumes play a significant role in conveying their identities.",
+        image: "../assets/img/yakshagana.jpg",
    },
 ],
 };
@@ -235,44 +205,16 @@ for(let i of restaurant.data){
     container.classList.add("container");
 
     let name = document.createElement("h4");
-    name.classList.add("rest-name");
-    name.innerText = i.rname.toUpperCase();
+    name.classList.add("dname");
+    name.innerText = i.dname.toUpperCase();
     container.appendChild(name);
 
-    let price = document.createElement("h5");
-    price.innerText = i.price;
-    container.appendChild(price);
-
-    let dish = document.createElement("h5");
-    dish.innerText = i.dish;
-    container.appendChild(dish);
-
-    let address = document.createElement("h5");
-    address.innerText = i.location;
-    container.appendChild(address);
-
+    let desc = document.createElement("h5");
+    desc.innerText = i.desc;
+    container.appendChild(desc);
 
     card.appendChild(container);
-    document.getElementById("restaurant").appendChild(card);
+    document.getElementById("dance").appendChild(card);
 }
 
-
-document.getElementById("search").addEventListener("click",()   => {
-    let searchInput = document.getElementById("search-input").value;
-    let elements = document.querySelectorAll("rest-name");
-    let cards = document.querySelectorAll(".card");
-    console.log(searchInput);
-
-    elements.forEach( (element,index) => {
-        if(element.innerText.includes(searchInput.toUpperCase())){
-            cards[index].classList.remove("hide");
-        }
-
-            else{
-                cards[index].classList.add("hide");
-            }
-
-        }
-);
-});
 
