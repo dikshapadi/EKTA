@@ -21,6 +21,15 @@ const userSchema = new mongoose.Schema({
 		type: String,
 		enum: ["male", "female"]
 	},
+	joinedTime: {
+		type: Date,
+		default: Date.now
+	},
+	role: {
+		type: String,
+		enum: ["admin", "faculty", "staff"],
+		required: true
+	},
 	address: {
 		type: String,
 		//required: true
