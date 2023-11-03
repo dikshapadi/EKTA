@@ -13,8 +13,8 @@ if(state == "Karnataka"){
  dance = {
     data:[
    {
-        dname: "Yakshagana",
-        desc: "Yakshagana, dance-drama of South India, associated most strongly with the state of Karnataka. Elaborate and colourful costumes, makeup, and masks constitute some of the most-striking features of the art form. Traditionally, yakshagana was performed in the open air by all-male troupes sponsored by various Hindu temples. Yakshagana typically presents stories from Hindu epics like the Mahabharata, Ramayana, and the Puranas, as well as local folklore. The performances often revolve around the triumph of good over evil and the tales of gods, goddesses, and heroes.The performers of Yakshagana wear vibrant and ornate costumes, including colorful headgear, masks, and makeup. The characters are easily distinguishable, and the costumes play a significant role in conveying their identities.",
+        dname: "Carnatic Music",
+        desc: "Carnatic music is usually performed by a small ensemble of musicians, consisting of a principal performer (usually a vocalist), a melodic accompaniment (usually a violin), a rhythm accompaniment (usually a mridangam), and a tambura, which acts as a drone throughout the performance.",
         image: "../assets/img/Yakshagana-2.jpg",
    },
 ],
@@ -26,8 +26,8 @@ else if (state == "Gujarat")
     dance = {
         data:[
        {
-            dname: "Garba",
-            desc: "Garba is a traditional Indian dance form that originated in the state of Gujarat. It is known for its vibrant and rhythmic movements, often performed during the Navratri festival, with participants dancing in circles to folk music. The dance celebrates the Hindu goddess Durga and is a symbol of community spirit and unity.",
+            dname: "Sugam Sangeet",
+            desc: "Gujarati folk music, known as Sugam Sangeet, is a hereditary profession of the Barot, Gadhvi and Charan communities. The omnipresent instruments in Gujarati folk music include wind instruments, such as turi, bungal, and pava, string instruments. The ravan hattho, ektaro, and jantar and percussion instruments, such as the manjira and zanz pot drum.",
             image: "../assets/img/garba.jpg",
        },
     ],
@@ -39,8 +39,8 @@ else if (state == "Jammu and Kashmir")
     dance = {
         data:[
        {
-            dname: "Rouf",
-            desc: "Rouf dance is a traditional folk dance from the Kashmir Valley in India. It is characterized by graceful movements and intricate footwork performed by women during festive occasions. The dance reflects the rich cultural heritage of Kashmir and often involves the use of traditional attire and jewelry.",
+            dname: "Chakri",
+            desc: "Chakri is one of the most popular types of traditional music played in Jammu & Kashmir. Chakri is a responsorial song form with instrumental parts, and it is played with instruments like the harmonium, the rubab, the sarangi, the nout, the geger, the tumbaknaer and the chimta. It is performed in folk and religious spheres, by the Muslim and Hindu kashmiris.",
             image: "../assets/img/rouf.jpg",
        },
     ],
