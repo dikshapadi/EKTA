@@ -15,7 +15,7 @@ if(state == "Karnataka"){
    {
         dname: "Yakshagana",
         desc: "Yakshagana, dance-drama of South India, associated most strongly with the state of Karnataka. Elaborate and colourful costumes, makeup, and masks constitute some of the most-striking features of the art form. Traditionally, yakshagana was performed in the open air by all-male troupes sponsored by various Hindu temples. Yakshagana typically presents stories from Hindu epics like the Mahabharata, Ramayana, and the Puranas, as well as local folklore. The performances often revolve around the triumph of good over evil and the tales of gods, goddesses, and heroes.The performers of Yakshagana wear vibrant and ornate costumes, including colorful headgear, masks, and makeup. The characters are easily distinguishable, and the costumes play a significant role in conveying their identities.",
-        image: "../assets/img/yakshagana.jpg",
+        image: "../assets/img/Yakshagana-2.jpg",
    },
 ],
 };
@@ -88,12 +88,13 @@ for(let i of dance.data){
     let container = document.createElement("div");
     container.classList.add("container");
 
-    let name = document.createElement("h4");
+    let name = document.createElement("p");
     name.classList.add("dname");
     name.innerText = i.dname.toUpperCase();
     container.appendChild(name);
 
-    let desc = document.createElement("h5");
+    let desc = document.createElement("p");
+    // name.classList.add("d1name");
     desc.innerText = i.desc;
     container.appendChild(desc);
 
