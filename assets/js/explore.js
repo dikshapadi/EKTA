@@ -13,38 +13,43 @@ if(state == "Karnataka"){
  restaurant = {
     data:[
    {
-        rname: "Vidyarthi Bhawan",
-        location: "Address : Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004",
-        price: "Approx Cost : Rs.100",
-        dish: "Speciality : Masala Dosa",
+        rname: "Masala Dosa",
+        location: "DESCRIPTION : Fermented crepe made from rice batter and black lentils and you stuff it with a lightly cooked filling of potatoes, fried onions and spices.",
+        origin: "ORIGIN : Udupi",
+        price: "APPROX COST : Rs.100",
+        dish: "RESRTAURANT : Vidyarthi Bhawan(Bengaluru)",
         image: "../assets/img/exp1.jpeg",
    },
    {
-    rname: "Machali",
-    location: "Sharada Vidyalaya Rd, Kodailbail, Mangaluru, Karnataka 575003",
-    price: "Approx Cost : Rs.200",
-    dish: "Speciality : Fish curry, Neer Dosa, Manglore Buns",
+    rname: "Fish Curry",
+    location: "DESCRIPTION : Consists of sardines semi-stewed in a curry with assorted vegetables. Usually served with rice, naan, or bread",
+    origin: "ORIGIN : Mangaluru",
+    price: "APPROX COST : Rs.150",
+    dish: "RESRTAURANT : Machali(Mangaluru)",
     image: "../assets/img/exp2.jpeg",
    },
    {
-    rname: "Sagar Benne Dose",
-    location: "Address : Jayachamaraja Wodeyar, Hadadi Rd, PravasiMandir road, Davanagere-02",
-    price: "Approx Cost : Rs.100",
-    dish: "Speciality : Benne Dose, Vada ",
-    image: "../assets/img/exp3.jpeg",
-   },
-   {
-    rname: "Central Tiffin Room",
-    location: "Address : 7th Cross Rd, Malleshwaram, Bengaluru, Karnataka",
-    price: "Approx Cost : Rs.150",
-    dish: "Speciality : Khali Dosa,Idly Sambar",
+    rname: "Mysore Pak",
+    location: "DESCRIPTION : Similar to a buttery and dense cookie, it is made of generous amounts of ghee, sugar, gram flour, and often cardamom",
+    origin: "ORIGIN : Mysore",
+    price: "APPROX COST : Rs.150/kg",
+    dish: "RESRTAURANT : Mansukhlal Mittaiwala(Mysore)",
     image: "../assets/img/exp4.jpeg",
    },
    {
-    rname: "Udupi Shri Krishna Bhavan",
-    location: "Address : Balepet Road, Chickpet, Bengaluru",
-    price: "Approx Cost : Rs.150",
-    dish: "Speciality : Ghee Dosa,Maddur Vada",
+    rname: "Maddur Vada",
+    location: "DESCRIPTION : Savoury fritter-type snack made from rice flour, cream of wheat or rava",
+    origin: "ORIGIN : Maddur",
+    price: "APPROX COST : Rs.50",
+    dish: "RESRTAURANT : Mavalli Tiffin Room(Bengaluru)",
+    image: "../assets/img/exp3.jpeg",
+   },
+   {
+    rname: "Jolad Rotti",
+    location: "DESCRIPTION : Indian bread made of sorghum bicolor consumed along with spicy curry or chutney",
+    origin: "ORIGIN : Bijapur",
+    price: "APPROX COST : Rs.50",
+    dish: "RESRTAURANT : Rotti Mattu(Bengaluru)",
     image: "../assets/img/exp5.jpeg",
    },
 ],
@@ -239,6 +244,15 @@ for(let i of restaurant.data){
     name.innerText = i.rname.toUpperCase();
     container.appendChild(name);
 
+
+    let address = document.createElement("h5");
+    address.innerText = i.location;
+    container.appendChild(address);
+
+    let origin = document.createElement("h5");
+    origin.innerText = i.origin;
+    container.appendChild(origin);
+
     let price = document.createElement("h5");
     price.innerText = i.price;
     container.appendChild(price);
@@ -247,9 +261,6 @@ for(let i of restaurant.data){
     dish.innerText = i.dish;
     container.appendChild(dish);
 
-    let address = document.createElement("h5");
-    address.innerText = i.location;
-    container.appendChild(address);
 
 
     card.appendChild(container);
