@@ -9,4 +9,8 @@ router.get("/puzzle", (req,res) => {
 	res.render("puzzle");
 });
 
+router.get("/crossword", (req,res) => {
+	res.render("crossword");
+});
+
 module.exports = router;	
