@@ -56,6 +56,8 @@ if(state == "Karnataka"){
 };
 }
 
+
+
 else if(state == "Jammu and Kashmir"){
 
     restaurant = {
@@ -74,7 +76,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : yusmarg",
        price: "APPROX COST : Rs.150",
        dish: "RESRTAURANT : Kashmiri Wazwan(yusmarg)",
-       image: "../assets/img/exp2.jpeg",
+       image: "../assets/img/exp2.2.jpeg",
       },
       {
        rname: ". Kashmiri Muji Gaad",
@@ -82,7 +84,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Sonamerg",
        price: "APPROX COST : Rs.350/kg",
        dish: "RESRTAURANT : Ahdoos Restaurant(Sonamerg)",
-       image: "../assets/img/exp4.jpeg",
+       image: "../assets/img/exp2.3.jpeg",
       },
       {
        rname: " Lyodur Tschaman",
@@ -90,7 +92,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Dal Lake",
        price: "APPROX COST : Rs.110",
        dish: "RESRTAURANT : Vishal Dhaba(Dal Lake)",
-       image: "../assets/img/exp3.jpeg",
+       image: "../assets/img/exp2.4.jpeg",
       },
       {
        rname: "Wazwan",
@@ -98,7 +100,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :yusmarg",
        price: "APPROX COST : Rs.50",
        dish: "RESRTAURANT : Kashmiri Wazwan(yusmarg)",
-       image: "../assets/img/exp5.jpeg",
+       image: "../assets/img/exp2.5.jpeg",
       },
    ],
    };
@@ -114,7 +116,7 @@ else if(state == "Jammu and Kashmir"){
            origin: "ORIGIN : Hyderabad",
            price: "APPROX COST : Rs.100",
            dish: "RESRTAURANT : Deccan Pavilion(Hyderabad)",
-           image: "../assets/img/exp1.jpeg",
+           image: "../assets/img/exp3.1.jpeg",
       },
       {
        rname: "Golichina Mamsam",
@@ -122,7 +124,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Warangal",
        price: "APPROX COST : Rs.250",
        dish: "RESRTAURANT : Paradise Restaurant(Warangal)",
-       image: "../assets/img/exp2.jpeg",
+       image: "../assets/img/exp3.2.jpeg",
       },
       {
        rname: "Polelu",
@@ -130,7 +132,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Nizamabad",
        price: "APPROX COST : Rs.50/piece",
        dish: "RESRTAURANT : Ahdoos Restaurant( Nizamabad)",
-       image: "../assets/img/exp4.jpeg",
+       image: "../assets/img/exp3.3.jpeg",
       },
       {
        rname: " Hyderabadi Biryani",
@@ -138,7 +140,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Hyderabad",
        price: "APPROX COST : Rs.110",
        dish: "RESRTAURANT : biryani Dhaba(Hyderabad)",
-       image: "../assets/img/exp3.jpeg",
+       image: "../assets/img/exp3.4.jpeg",
       },
       {
        rname: "Chegodilu",
@@ -146,11 +148,15 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Begumpet",
        price: "APPROX COST : Rs.50",
        dish: "RESRTAURANT : Saffron Soul(Begumpet)",
-       image: "../assets/img/exp5.jpeg",
+       image: "../assets/img/exp3.5.jpeg",
       },
    ],
    };
    }
+
+
+
+
 
    else if(state == "Gujarat"){
 
@@ -162,7 +168,7 @@ else if(state == "Jammu and Kashmir"){
            origin: "ORIGIN : Gujarat.",
            price: "APPROX COST : Rs.100",
            dish: "RESRTAURANT : Deccan Pavilion(Gujarat)",
-           image: "../assets/img/exp3.1.jpeg",
+           image: "../assets/img/exp4.2.jpeg",
       },
       {
        rname: "Thepla",
@@ -170,7 +176,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Kutch",
        price: "APPROX COST : Rs.250",
        dish: "RESRTAURANT : Anand Restaurants(Kutch)",
-       image: "../assets/img/exp3.2.jpeg",
+       image: "../assets/img/exp4.3.jpeg",
       },
       {
        rname: " Khichdi",
@@ -178,7 +184,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Ahmedabad",
        price: "APPROX COST : Rs.50/piece",
        dish: "RESRTAURANT : Ahdoos Restaurant( Ahmedabad)",
-       image: "../assets/img/exp3.3.jpeg",
+       image: "../assets/img/exp4.4.jpeg",
       },
       {
        rname: "Dabeli",
@@ -186,7 +192,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :Kutch",
        price: "APPROX COST : Rs.110",
        dish: "RESRTAURANT : dabeli Dhaba(Kutch)",
-       image: "../assets/img/exp3.4.jpeg",
+       image: "../assets/img/exp4.5.jpeg",
       },
       {
        rname: "Jalebi",
@@ -194,14 +200,18 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Ahmedabad",
        price: "APPROX COST : Rs.20",
        dish: "RESRTAURANT : Saffron Soul(Ahmedabad)",
-       image: "../assets/img/exp3.5.jpeg",
+       image: "../assets/img/exp4.1.jpeg",
       },
    ],
    };
    }
 
-   
- 
+
+
+
+
+
+
 
 
    else{
@@ -214,7 +224,7 @@ else if(state == "Jammu and Kashmir"){
            origin: "ORIGIN : Guwahati",
            price: "APPROX COST : Rs.100",
            dish: "RESRTAURANT : Deccan Pavilion(Guwahati)",
-           image: "../assets/img/exp3.1.jpeg",
+           image: "../assets/img/exp5.1.jpeg",
       },
       {
        rname: " Maasor Tenga",
@@ -222,7 +232,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  Kaziranga",
        price: "APPROX COST : Rs.250",
        dish: "RESRTAURANT : Anand Restaurants(kaziranga)",
-       image: "../assets/img/exp3.2.jpeg",
+       image: "../assets/img/exp5.2.jpeg",
       },
       {
        rname: "Khaar",
@@ -230,7 +240,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :  kaziranga",
        price: "APPROX COST : Rs.50/piece",
        dish: "RESRTAURANT : Ahdoos Restaurant( Kaziranga)",
-       image: "../assets/img/exp3.3.jpeg",
+       image: "../assets/img/exp5.3.jpeg",
       },
       {
        rname: " Duck Meat Curry",
@@ -238,7 +248,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN :guwahati",
        price: "APPROX COST : Rs.210",
        dish: "RESRTAURANT : dabeli Dhaba(guwahati)",
-       image: "../assets/img/exp3.4.jpeg",
+       image: "../assets/img/exp5.4.jpeg",
       },
       {
        rname: "Aloo Pitika",
@@ -246,7 +256,7 @@ else if(state == "Jammu and Kashmir"){
        origin: "ORIGIN : Kaziranga",
        price: "APPROX COST : Rs.20",
        dish: "RESRTAURANT : Saffron Soul(Kaziranga)",
-       image: "../assets/img/exp3.5.jpeg",
+       image: "../assets/img/exp5.5.jpeg",
       },
    ],
    };
