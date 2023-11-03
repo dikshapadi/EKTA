@@ -5,7 +5,7 @@ router.get("/games", (req,res) => {
 	res.render("games");
 });
 
-router.get("/games/puzzle", (req,res) => {
+router.get("/puzzle", (req,res) => {
 	res.render("puzzle");
 });
 
