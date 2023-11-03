@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 const ejs = require('ejs');
 const passport = require("passport");
+const bcrypt = require('bcrypt');	
 const flash = require("connect-flash");
 const session = require("express-session");
 const methodOverride = require("method-override");
@@ -48,8 +49,8 @@ app.use(gamesRoutes);
 app.use(gameRoutes);
 app.use(authRoutes);
 
-const MONGO_URI = "mongodb+srv://Navya:gHYqmhdmKbevexxD@cluster0.jeuaqbk.mongodb.net/REVA"
-
+const MONGO_URI = process.env.MONGO_URI;
+const SESSION_SECRET = process.env.SESSION_SECRET;
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
