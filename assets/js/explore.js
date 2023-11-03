@@ -56,90 +56,122 @@ if(state == "Karnataka"){
 };
 }
 
-else if (state == "Jammu and Kashmir")
-{
-     restaurant = {
-        data:[
-       {
-            rname: "Kundan Da Dhaba",
-            location: "Address : Shalamar, Prem Nagar, Old Heritage City, Jammu and Kashmir 180001",
-            price: "Approx Cost : Rs.200",
-            dish: "Speciality : Phulka and Curry",
-            image: "../assets/img/exp2.1.jpeg",
-       },
-       {
-        rname: "Vaishno Dhaba",
-        location: "Address : City Centre Road, Near Sangam Cinema, Jammu and Kashmir 143001",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Lachedar Paratha and Dal Makhani",
-        image: "../assets/img/exp2.2.jpeg",
-       },
-       {
-        rname: "Pahalwan’s",
-        location: "Address : Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Khaladi Kulcha, Chole Bature",
-        image: "../assets/img/exp2.3.jpeg",
-       },
-       {
-        rname: "ZAMINDARA DHABA",
-        location: "Address : Raya Morh, Jakh, Bari Brahmana, Samba, Jammu and Kashmir 181133",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Butter Naan and Paneer Makhani",
-        image: "../assets/img/exp2.4.jpeg",
-       },
-       {
-        rname: "Jammu Darbar",
-        location: "Address : Stadium Morh, Channi Himmat, Bye Pass, Jammu, Jammu and Kashmir 180015",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Kashmiri Pulav",
-        image: "../assets/img/exp2.5.jpeg",
-       },
-    ],
-    };
-}
 
-else if (state == "Telangana"){
-     restaurant = {
-        data:[
-       {
-            rname: "Hotel Shadab",
-            location: "Address : High Court Road, Charminar, Ghansi Bazaar, Hyderabad",
-            price: "Approx Cost : Rs.200",
-            dish: "Speciality : Nihari, Payas, Biryani",
-            image: "../assets/img/exp4.1.jpeg",
-       },
-       {
-        rname: "Hotel Nayab",
-        location: "Address : Nayapul Road, Nassir Complex, Chatta Bazar, Darulshifa, Hyderabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Paya, Khichdi, Keema",
-        image: "../assets/img/exp4.2.jpeg",
-       },
-       {
-        rname: "Cafe Niloufer",
-        location: "Address : Redhills, Lakdikapul, Hyderabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Irani chai, Hyderabadi Biryani,Mutton Haleem ",
-        image: "../assets/img/exp4.3.webp",
-       },
-       {
-        rname: "ZAMINDARA DHABA",
-        location: "Address : Raya Morh, Jakh, Bari Brahmana, Samba, Hyderabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Butter Naan and Paneer Makhani",
-        image: "../assets/img/exp2.4.jpeg",
-       },
-       {
-        rname: "Moti Mahal",
-        location: "Address : Kalupur Rd, near Railway Station, Kapasia Bazar, Sakar Bazzar, Kalupur, Hyderabad",
-        price: "Approx Cost : Rs.200",
-        dish: "Speciality : Chicken Tangri and Biriyani",
-        image: "../assets/img/exp3.2.jpeg",
-       },
-    ],
-    };
-}
+
+
+
+
+else if(state == "Jammu and Kashmir"){
+
+    restaurant = {
+       data:[
+      {
+           rname: "Rogan Josh",
+           location: "DESCRIPTION :A must try dish for all the Lamb or meat lovers, Rogan Josh, an aromatic lamb dish is one of the signature recipes of Kashmiri cuisine. ",
+           origin: "ORIGIN : srinagar",
+           price: "APPROX COST : Rs.400",
+           dish: "RESRTAURANT : Shamyana restaurant(Srinagar)",
+           image: "../assets/img/Rogan-Josh.jpg",
+      },
+      {
+       rname: "Modur Pulav",
+       location: "DESCRIPTION : This dish is sweet, flavoured and healthy with saffron as the main spice which gives it beautiful colour and taste.",
+       origin: "ORIGIN : yusmarg",
+       price: "APPROX COST : Rs.150",
+       dish: "RESRTAURANT : Kashmiri Wazwan(yusmarg)",
+       image: "../assets/img/exp2.jpeg",
+      },
+      {
+       rname: ". Kashmiri Muji Gaad",
+       location: "DESCRIPTION : Served on festivals and occasions, Kashmir gaad is a dish made up of fish prepared generally with radish or nadur. ",
+       origin: "ORIGIN : Sonamerg",
+       price: "APPROX COST : Rs.350/kg",
+       dish: "RESRTAURANT : Ahdoos Restaurant(Sonamerg)",
+       image: "../assets/img/exp4.jpeg",
+      },
+      {
+       rname: " Lyodur Tschaman",
+       location: "DESCRIPTION :  Lyodur Tschaman is cottage cheese cooked in creamy turmeric based gravy. ",
+       origin: "ORIGIN : Dal Lake",
+       price: "APPROX COST : Rs.110",
+       dish: "RESRTAURANT : Vishal Dhaba(Dal Lake)",
+       image: "../assets/img/exp3.jpeg",
+      },
+      {
+       rname: "Wazwan",
+       location: "DESCRIPTION : Wazwan, the traditional cuisine of Kashmir, is a gastronomic delight that showcases the rich flavors and aromatic spices of the region.",
+       origin: "ORIGIN :yusmarg",
+       price: "APPROX COST : Rs.50",
+       dish: "RESRTAURANT : Kashmiri Wazwan(yusmarg)",
+       image: "../assets/img/exp5.jpeg",
+      },
+   ],
+   };
+   }
+
+
+
+
+
+
+
+
+
+   else if(state == "Telangana"){
+
+    restaurant = {
+       data:[
+      {
+           rname: "Sarva Pindi ",
+           location: "DESCRIPTION :It is a savoury pancake made of rice flour, chana dal, peanuts and chilli. It is cooked in a deep, round shaped pan. ",
+           origin: "ORIGIN : Hyderabad",
+           price: "APPROX COST : Rs.100",
+           dish: "RESRTAURANT : Deccan Pavilion(Hyderabad)",
+           image: "../assets/img/exp1.jpeg",
+      },
+      {
+       rname: "Golichina Mamsam",
+       location: "DESCRIPTION :As Telangana cuisine is well-known for its spices, this dish incorporates succulent pieces of mutton into a thick gravy that is loaded with locally grown spices and cooked over low flame for hours ",
+       origin: "ORIGIN :  Warangal",
+       price: "APPROX COST : Rs.250",
+       dish: "RESRTAURANT : Paradise Restaurant(Warangal)",
+       image: "../assets/img/exp2.jpeg",
+      },
+      {
+       rname: "Polelu",
+       location: "DESCRIPTION :Ultra-thin flattened Indian bread with a stuffing made of jaggery, channa dal, cardamom powder and ghee, Polelu is a go to recipe for special festivals like Ganesh Chathurthi.",
+       origin: "ORIGIN :  Nizamabad",
+       price: "APPROX COST : Rs.50/piece",
+       dish: "RESRTAURANT : Ahdoos Restaurant( Nizamabad)",
+       image: "../assets/img/exp4.jpeg",
+      },
+      {
+       rname: " Hyderabadi Biryani",
+       location: "DESCRIPTION :  Thanks to the major influence of Nizams in the state, Hyderabadi Biryani has come to be known worldwide as one of India’s jeweled food items. ",
+       origin: "ORIGIN : Hyderabad",
+       price: "APPROX COST : Rs.110",
+       dish: "RESRTAURANT : biryani Dhaba(Hyderabad)",
+       image: "../assets/img/exp3.jpeg",
+      },
+      {
+       rname: "Chegodilu",
+       location: "DESCRIPTION : A tea-time accompaniment, Chegodilu is a crunchy snack item that is almost impossible to stop munching on after the first bite. ",
+       origin: "ORIGIN : Begumpet",
+       price: "APPROX COST : Rs.50",
+       dish: "RESRTAURANT : Saffron Soul(Begumpet)",
+       image: "../assets/img/exp5.jpeg",
+      },
+   ],
+   };
+   }
+
+
+
+
+
+
+
+
 
 else if (state == "Gujarat") {
      restaurant = {
