@@ -56,11 +56,6 @@ if(state == "Karnataka"){
 };
 }
 
-
-
-
-
-
 else if(state == "Jammu and Kashmir"){
 
     restaurant = {
@@ -108,14 +103,6 @@ else if(state == "Jammu and Kashmir"){
    ],
    };
    }
-
-
-
-
-
-
-
-
 
    else if(state == "Telangana"){
 
@@ -165,58 +152,6 @@ else if(state == "Jammu and Kashmir"){
    };
    }
 
-
-
-
-
-   else if(state == "Gujarat"){
-
-    restaurant = {
-       data:[
-      {
-           rname: "Dhokla",
-           location: "DESCRIPTION :Gujarat's most frequently cooked and savored cuisines are the soft, spongy, and square-shaped pieces served with chutney.",
-           origin: "ORIGIN : Gujarat.",
-           price: "APPROX COST : Rs.100",
-           dish: "RESRTAURANT : Deccan Pavilion(Gujarat)",
-           image: "../assets/img/exp3.1.jpeg",
-      },
-      {
-       rname: "Thepla",
-       location: "DESCRIPTION :Like thin Parathas served for breakfast, Theplas are flatbreads made of fenugreek leaves, gram flour, and many spices. ",
-       origin: "ORIGIN :  Kutch",
-       price: "APPROX COST : Rs.250",
-       dish: "RESRTAURANT : Anand Restaurants(Kutch)",
-       image: "../assets/img/exp3.2.jpeg",
-      },
-      {
-       rname: " Khichdi",
-       location: "DESCRIPTION :Unlike normal Khichdi, there’s something about Gujarati Khichdi that makes it incredibly delicious. There’s a reason why it’s called the national food of India.",
-       origin: "ORIGIN :  Ahmedabad",
-       price: "APPROX COST : Rs.50/piece",
-       dish: "RESRTAURANT : Ahdoos Restaurant( Ahmedabad)",
-       image: "../assets/img/exp3.3.jpeg",
-      },
-      {
-       rname: "Dabeli",
-       location: "DESCRIPTION :  Texture-wise, both are the same, but Dabeli tastes slightly different.  ",
-       origin: "ORIGIN :Kutch",
-       price: "APPROX COST : Rs.110",
-       dish: "RESRTAURANT : dabeli Dhaba(Kutch)",
-       image: "../assets/img/exp3.4.jpeg",
-      },
-      {
-       rname: "Jalebi",
-       location: "DESCRIPTION : Traditionally, the jalebi recipe is made with a batter of all purpose flour, gram flour (besan), baking soda and water that is fermented for several hours. ",
-       origin: "ORIGIN : Ahmedabad",
-       price: "APPROX COST : Rs.20",
-       dish: "RESRTAURANT : Saffron Soul(Ahmedabad)",
-       image: "../assets/img/exp3.5.jpeg",
-      },
-   ],
-   };
-   }
-
    else if (state == "Gujarat") {
       restaurant = {
          data:[
@@ -261,16 +196,6 @@ else if(state == "Jammu and Kashmir"){
      ],
      };
  }
- 
- 
-
-
-
-
-
-
-
-
    else{
 
     restaurant = {
@@ -318,9 +243,6 @@ else if(state == "Jammu and Kashmir"){
    ],
    };
    }
-
-
-
 
 for(let i of restaurant.data){
     let card = document.createElement("div");

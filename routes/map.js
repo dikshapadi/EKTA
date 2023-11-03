@@ -30,4 +30,9 @@ router.get("/calendar", (req,res) => {
 });
 
 
+router.get("/auth/signup", middleware.ensureNotLoggedIn, (req,res) => {
+	res.render("auth/signup", { title: "User Signup" });
+});
+
+
 module.exports = router;	
