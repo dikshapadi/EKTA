@@ -68,7 +68,7 @@ else if (state == "Assam")
        {
             dname: "Bihu Music",
             desc: "Bihu is the most celebrated festival in Assam, and Bihu songs and music are an integral part of this festival. Bihu songs, often accompanied by the dhol (drum) and pepa (buffalo horn pipe), are lively and energetic. They are performed during Bihu dance and represent the different stages of agricultural life.",
-            image: "../assets/img/bihu.jpg",
+            image: "../assets/img/Bihu_music.jpg",
        },
     ],
 };
