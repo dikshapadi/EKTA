@@ -13,39 +13,44 @@ if(state == "Karnataka"){
  restaurant = {
     data:[
    {
-        rname: "Udupi Grand",
-        location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person",
-        dish: "Dosa",
+        rname: "Karnataka Delights",
+        location: "123, South Bangalore Road, Bangalore, Karnataka",
+        price: "Rs.800 Per Person",
+        dish: "Dishes : Masala Dosa, Ragi Mudde, Mysore Pak",
         image: "../assets/img/learn.1.jpeg",
+        contact: "Email: info@karnatakadelights.com, Phone: +91 123-456-7890"
    },
    {
-    rname: "Udupi Swaad",
-    location: "Kumarswamy Layout",
-    price: "Rs.200 Per Person",
-    dish: "Dosa",
+    rname: "Flavors of Coastal Karnataka",
+    location: "Address : Mangalorean Fish Curry, Neer Dosa, Goli Baje",
+    price: "Cost : Rs.1000 Per Person",
+    dish: "Dishes : Mangalorean Fish Curry, Neer Dosa, Goli Baje",
     image: "../assets/img/learn.2.jpeg",
+    contact: "Email: info@coastalkarnatakaflavors.com, Phone: +91 987-654-3210"
    },
    {
-    rname: "Udupi Swaad",
-    location: "Kumarswamy Layout",
-    price: "Rs.200 Per Person",
-    dish: "Dosa",
+    rname: "Savoring North Karnataka",
+    location: "K789, North Karnataka Street, Hubli, Karnatakat",
+    price: "Cost : Rs.650 Per Person",
+    dish: "Dishes : Jolada Rotti, Enne Badanekayi, Holige",
     image: "../assets/img/learn.3.jpeg",
+    contact: "Email: info@northkarnatakasavoring.com, Phone: +91 765-432-1098"
    },
    {
-    rname: "Udupi Swaad",
-    location: "Kumarswamy Layout",
-    price: "Rs.200 Per Person",
-    dish: "Dosa",
+    rname: "Kodagu Culinary Journey",
+    location: "101, Coorg Hills, Madikeri, Karnataka",
+    price: "Cost : Rs.900 Per Person",
+    dish: "Dishes : Pandi Curry, Noolputtu, Bamboo Shoot Curry",
     image: "../assets/img/learn.4.jpeg",
+    contact: "Email: info@kodagucuisinejourney.com, Phone: +91 111-222-3333"
    },
    {
-    rname: "Udupi Swaad",
-    location: "Kumarswamy Layout",
-    price: "Rs.200 Per Person",
-    dish: "Dosa",
+    rname: "Traditional Mysorean Cooking",
+    location: "321, Mysore Heritage Lane, Mysore, Karnataka",
+    price: "Cost : Rs.1200 Per Person",
+    dish: "Dishes : Bisi Bele Bath, Mysore Masala Dosa, Mysore Pak",
     image: "../assets/img/learn.5.jpeg",
+    contact: " Email: info@traditionalmysoreancooking.com, Phone: +91 999-888-7777",
    },
 ],
 };
@@ -250,6 +255,10 @@ for(let i of restaurant.data){
     let address = document.createElement("h5");
     address.innerText = i.location;
     container.appendChild(address);
+
+    let contact = document.createElement("h5");
+    contact.innerText = i.contact;
+    container.appendChild(contact);
 
 
     card.appendChild(container);
