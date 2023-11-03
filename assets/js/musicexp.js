@@ -15,7 +15,7 @@ if(state == "Karnataka"){
    {
         dname: "Carnatic Music",
         desc: "Carnatic music is usually performed by a small ensemble of musicians, consisting of a principal performer (usually a vocalist), a melodic accompaniment (usually a violin), a rhythm accompaniment (usually a mridangam), and a tambura, which acts as a drone throughout the performance.",
-        image: "../assets/img/carnatic.jpg",
+        image: "../assets/img/carnatic.jpeg",
    },
 ],
 };

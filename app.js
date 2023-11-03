@@ -8,6 +8,7 @@ const danceRoutes = require("./routes/dance.js")
 const musicRoutes = require("./routes/music.js")
 const storyRoutes = require("./routes/story.js")
 const gamesRoutes = require("./routes/games.js")
+const gameRoutes = require("./routes/game.js")
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
 require("./config/dbConnection.js");
@@ -19,6 +20,7 @@ app.use(danceRoutes);
 app.use(musicRoutes);
 app.use(storyRoutes);
 app.use(gamesRoutes)
+app.use(gameRoutes)
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
