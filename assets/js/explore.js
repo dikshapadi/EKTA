@@ -152,56 +152,6 @@ else if(state == "Jammu and Kashmir"){
    };
    }
 
-<<<<<<< HEAD
-   else if (state == "Gujarat") {
-      restaurant = {
-         data:[
-        {
-         rname: "Jalebi",
-         location: "DESCRIPTION : Fried spirals made of gram flour and baking soda, are then soaked in a flavored sugar syrup",
-         origin: "ORIGIN : Amriti",
-         price: "APPROX COST : Rs.200/kg",
-         dish: "RESRTAURANT : Chinnarvilla Restaurant(Ahmedabad)",
-         image: "../assets/img/exp3.1.jpeg",
-        },
-        {
-         rname: "Dhokla",
-         location: "DESCRIPTION :  Savoury sponge dish, made with a fermented batter that is steamed to a cake-like consistency",
-         origin: "ORIGIN : Gujarat",
-         price: "APPROX COST : Rs.350/kg",
-         dish: "RESRTAURANT : Janki Kaman(Ahmedabad)",
-         image: "../assets/img/img1.5.jpeg",
-        },
-        {
-         rname: "Thepla",
-         location: "DESCRIPTION :  Flatbreads made of fenugreek leaves, gram flour, and many spices",
-         origin: "ORIGIN : Vadodara",
-         price: "APPROX COST : Rs.100",
-         dish: "RESRTAURANT : Masi Na Thepla(Ahmedabad)",
-         image: "../assets/img/exp3.3.jpeg",
-        },
-        {
-         rname: "The Jungle Bhookh",
-         location: "Address : Wall Street-1, 103/B,, Shahid Veer Kinariwala Marg, opp. Orient Club, Ellis Bridge, Ahmedabad",
-         price: "Approx Cost : Rs.200",
-         dish: "Speciality : Malai Kofta, Paneer Butter Masala",
-         image: "../assets/img/exp3.4.jpeg",
-        },
-        {
-         rname: "Agashiye",
-         location: "Address : The House of Mangaldas Girdhardas, Opp. Sidi Saiyad Jali, Lal Darwaja,, Ahmedabad",
-         price: "Approx Cost : Rs.200",
-         dish: "Speciality : Farsan, Kadhi, Sweets",
-         image: "../assets/img/exp3.5.jpeg",
-        },
-     ],
-     };
- }
-=======
-
-
-
-
    else if(state == "Gujarat"){
 
     restaurant = {
@@ -254,7 +204,6 @@ else if(state == "Jammu and Kashmir"){
  
 
 
->>>>>>> 9f81565d7ae2b8bb7908e2b090e9a062fb56634d
    else{
 
     restaurant = {
