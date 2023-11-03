@@ -15,7 +15,7 @@ if(state == "Karnataka"){
    {
         dname: "Carnatic Music",
         desc: "Carnatic music is usually performed by a small ensemble of musicians, consisting of a principal performer (usually a vocalist), a melodic accompaniment (usually a violin), a rhythm accompaniment (usually a mridangam), and a tambura, which acts as a drone throughout the performance.",
-        image: "../assets/img/Yakshagana-2.jpg",
+        image: "../assets/img/carnatic.jpg",
    },
 ],
 };
@@ -28,7 +28,7 @@ else if (state == "Gujarat")
        {
             dname: "Sugam Sangeet",
             desc: "Gujarati folk music, known as Sugam Sangeet, is a hereditary profession of the Barot, Gadhvi and Charan communities. The omnipresent instruments in Gujarati folk music include wind instruments, such as turi, bungal, and pava, string instruments. The ravan hattho, ektaro, and jantar and percussion instruments, such as the manjira and zanz pot drum.",
-            image: "../assets/img/garba.jpg",
+            image: "../assets/img/sugam_sangeeth.jpeg",
        },
     ],
 };
@@ -41,7 +41,7 @@ else if (state == "Jammu and Kashmir")
        {
             dname: "Chakri",
             desc: "Chakri is one of the most popular types of traditional music played in Jammu & Kashmir. Chakri is a responsorial song form with instrumental parts, and it is played with instruments like the harmonium, the rubab, the sarangi, the nout, the geger, the tumbaknaer and the chimta. It is performed in folk and religious spheres, by the Muslim and Hindu kashmiris.",
-            image: "../assets/img/rouf.jpg",
+            image: "../assets/img/Chakri.jpg",
        },
     ],
 };
@@ -55,7 +55,7 @@ else if (state == "Telangana")
        {
             dname: "Oggu Katha",
             desc: "Oggu Katha is a traditional and folk form of Telugu musical storytelling that has its roots in the Telangana region of India. It is a unique and centuries-old art form that combines music, dance, and storytelling to narrate epic tales, historical events, and mythological stories. ",
-            image: "../assets/img/sivatandavam.png",
+            image: "../assets/img/Oggu.avif",
        },
     ],
 };
