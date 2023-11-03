@@ -168,7 +168,7 @@ else if(state == "Jammu and Kashmir"){
            origin: "ORIGIN : Gujarat.",
            price: "APPROX COST : Rs.100",
            dish: "RESRTAURANT : Deccan Pavilion(Gujarat)",
-           image: "../assets/img/exp4.2.jpeg",
+           image: "../assets/img/img1.5.jpeg",
       },
       {
        rname: "Thepla",
