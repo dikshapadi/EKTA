@@ -155,7 +155,7 @@ button:hover{
 } */
 
 body{
-    background-color: #f5f8ff;
+    background-color: wheat;
 }
 
 h2{
@@ -187,6 +187,10 @@ h2{
     text-align: center;
     margin-bottom: 2rem;
     font-size: 35px;
+    background: linear-gradient(to right, white,
+    #FF671F,  #046A38, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 
@@ -194,6 +198,8 @@ h2{
     text-align: center;
     font-size: 40px;
     margin-top: 15px;
+    background: linear-gradient(to right, white,
+    #FF671F,  #046A38, white);
 }
 
 .wrapper {
@@ -249,7 +255,7 @@ h2{
     justify-content: flex-start;
     align-items: center;
     /* text-align: center; */
-    margin-left: 270px;
+    margin-left: 200px;
     gap: 2.5em;
 }
 
