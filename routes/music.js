@@ -9,4 +9,8 @@ router.get("/musicexp",(req,res)=>{
 	res.render("musicexp")
 })
 
+router.get("/musiclearn",(req,res)=>{
+	res.render("musiclearn")
+})
+
 module.exports = router;	
