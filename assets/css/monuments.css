@@ -8,7 +8,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);  }
+    transform: translate(-50%, -50%);  
+    z-index: -1;
+  }
 
   .box-body { 
 
@@ -23,27 +25,13 @@ body {
     background: linear-gradient(#762c2c,#ff0303);
 
   }
-  
-  .box-body .img{
-    opacity: 0;
-    transform: translateY(0%);
-    transition: all 0.5s;
-    margin: 0 auto;
-    display: block;
-  }
+
   .box-body:hover {
     cursor: pointer;
     -webkit-animation: box-body 1s forwards ease-in-out;
             animation: box-body 1s forwards ease-in-out;
   }
-  .box-body:hover .img{
-    opacity: 1;
-    z-index: 0;
-    transform: translateY(-157px);
   
-  
-     
-  }
   .box-body:hover .box-lid {
     -webkit-animation: box-lid 1s forwards ease-in-out;
             animation: box-lid 1s forwards ease-in-out;
@@ -243,5 +231,14 @@ body {
       -webkit-transform: translateX(-100%) rotate(0deg) skew(10deg, 10deg);
               transform: translateX(-100%) rotate(0deg) skew(10deg, 10deg);
     }
+  }
+
+  .sec2{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+    margin-left: 500px;
+    margin-top: 300px;
   }
   
