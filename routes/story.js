@@ -9,5 +9,9 @@ router.get("/monuments",(req,res)=>{
 	res.render("monuments")
 })
 
+router.get("/mahabharat", (req,res) => {
+	res.render("mahabharat");
+});
+
 
 module.exports = router;	
