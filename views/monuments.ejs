@@ -1,99 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/monuments.css">
-    <style>
-        .carousel {
-            width: 600px;
-            overflow: hidden;
-            z-index: inherit;
-        }
-
-        .carousel-container {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .carousel-image {
-            width: 500px;
-            height: 300px;
-        }
-
-        button {    
-            cursor: pointer;
-        }
-    </style>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Image Carousel</title>
 </head>
 <body>
-    <div class="box">
-        <div class="box-body">
-           
-          <div class="box-lid">
-            <div class="box-bowtie"></div>
-          </div>
-        </div>
-      </div>
-      <div class="sec2" style="display: none;">
-        <div class="carousel">
-            <div class="carousel-container">
-                <img class="carousel-image" src="/assets/img/art.png" alt="Image 1">
-                <img class="carousel-image" src="/assets/img/bd.jpg" alt="Image 2">
-                <img class="carousel-image" src="/assets/img/ac.png" alt="Image 3">
-            </div>
-        </div>
-        <button id="prev">Previous</button>
-        <button id="next">Next</button>
-    
-        <script>
-            const carousel = document.querySelector('.carousel-container');
-            const prevButton = document.getElementById('prev');
-            const nextButton = document.getElementById('next');
-            const imageWidth = 300; // Adjust this to your image width
-    
-            let currentIndex = 0;
-    
-            function updateCarousel() {
-                const transformValue = -currentIndex * imageWidth;
-                carousel.style.transform = `translateX(${transformValue}px)`;
-            }
-    
-            prevButton.addEventListener('click', () => {
-                currentIndex = Math.max(currentIndex - 1, 0);
-                updateCarousel();
-            });
-    
-            nextButton.addEventListener('click', () => {
-                currentIndex = Math.min(currentIndex + 1, 2); // Change '2' to the number of images minus 1
-                updateCarousel();
-            });
-        </script>
-      </div>
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <img src="image1.jpg" alt="Sunset">
+    </div>
+    <div class="carousel-slide">
+      <img src="image2.jpg" alt="Coffee Shop">
+    </div>
+    <div class="carousel-slide">
+      <img src="image3.jpg" alt="Snowy Mountains">
+    </div>
+  </div>
 
-    <script>
-        const box = document.querySelector('.box');
-        const sec2 = document.querySelector('.sec2');
-
-        // Function to show "section 2" when hovering over the box
-        function showSection2() {
-            sec2.style.display = 'block';
-        }
-
-        // Function to hide "section 2" when the mouse leaves the box
-        function hideSection2() {
-            sec2.style.display = 'none';
-        }
-
-        // Event listeners to trigger the show and hide functions
-        box.addEventListener('mouseenter', showSection2);
-        box.addEventListener('mouseleave', hideSection2);
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>
