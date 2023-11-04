@@ -1,8 +1,10 @@
 #Ekta
+
 A digital Odessey of India's diverse heritage and culture
 
 
 #The idea
+
 Our problem statement is to- Ideate a solution that showcases the rich cultural heritage and traditions of India.
 India boasts a rich and diverse cultural heritage that spans thousands of years, encompassing
 art, music, dance, crafts, and more. Simultaneously, India is home to millions of skilled artisans
@@ -16,6 +18,7 @@ shared globally. Tourism, a goldmine of economic and cultural potential, often r
 underexploited.
 
 #Table of Contents
+
 Tech Stack
 Features
 Installation
