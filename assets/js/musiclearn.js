@@ -120,7 +120,7 @@ else if (state == "Telangana"){
        {
         rname: "hindustani masti",
         location: "Kumarswamy Layout",
-        price: "Rs.200 Per Person"
+        price: "Rs.200 Per Person",
         image: "../assets/img/musicteacher3.jpg",
         contact: "Email: info@khysbjcarnatakamusic.com, Phone: +91 123-456-7890"
        },
