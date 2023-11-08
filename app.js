@@ -13,14 +13,13 @@ const musicRoutes = require("./routes/music.js")
 const storyRoutes = require("./routes/story.js")
 const gamesRoutes = require("./routes/games.js")
 const gameRoutes = require("./routes/game.js")
-const ecommerceRoutes = require("./routes/ecommerce.js")
+const ecommRoutes = require("./routes/ecommerce.js")
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
 require("dotenv").config();
 require("./config/dbConnection.js");
 require("./config/passport.js")(passport);
-
 
 
 
@@ -51,7 +50,7 @@ app.use(musicRoutes);
 app.use(storyRoutes);
 app.use(gamesRoutes);
 app.use(gameRoutes);
-app.use(ecommerceRoutes)
+app.use(ecommRoutes);
 
 
 const MONGO_URI = process.env.MONGO_URI;

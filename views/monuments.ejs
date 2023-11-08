@@ -3,22 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/monuments.css">
   <title>Image Carousel</title>
 </head>
 <body>
-  <div class="carousel-container">
-    <div class="carousel-slide">
-      <img src="image1.jpg" alt="Sunset">
-    </div>
-    <div class="carousel-slide">
-      <img src="image2.jpg" alt="Coffee Shop">
-    </div>
-    <div class="carousel-slide">
-      <img src="image3.jpg" alt="Snowy Mountains">
-    </div>
-  </div>
+  <section class="part5">
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
 
-  <script src="script.js"></script>
-</body>
+        <div class="slide first">
+          <img src="../assets/img/gmf.webp">
+        </div>
+        <div class="slide">
+          <img src="../assets/img/bsct.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/img/kbh.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/img/lake.avif" alt="">
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn-1"></div>
+          <div class="auto-btn-2"></div>
+          <div class="auto-btn-3"></div>
+          <div class="auto-btn-4"></div>
+        </div>
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+  </body>
 </html>

@@ -16,21 +16,21 @@ if(state == "Karnataka"){
         rname: "Yakshagana Dance Classes",
         location: "123, South Bangalore Road, Bangalore, Karnataka",
         price: "Rs.800 Per head",
-        image: "../assets/img/learn.1.jpeg",
+        image: "../assets/img/kathak3.jpg",
         contact: "Email: info@karnatakadelights.com, Phone: +91 123-456-7890"
    },
    {
     rname: "Bharatnatiyam",
     location: "Address : Mangalore ",
     price: "Cost : Rs.1000 Per Person",
-    image: "../assets/img/learn.2.jpeg",
+    image: "../assets/img/bharat2.jpg",
     contact: "Email: info@coastalkarnatakaflavors.com, Phone: +91 987-654-3210"
    },
    {
     rname: "Huli Dance",
     location: "K789, North Karnataka Street, Hubli, Karnatakat",
     price: "Cost : Rs.650 Per Person",
-    image: "../assets/img/learn.3.jpeg",
+    image: "../assets/img/kathak3.jpg",
     contact: "Email: info@northkarnatakasavoring.com, Phone: +91 765-432-1098"
    },
 ],
