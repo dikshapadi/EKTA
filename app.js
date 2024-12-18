@@ -17,9 +17,7 @@ const ecommRoutes = require("./routes/ecommerce.js")
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(path.join(__dirname),{
-	maxAge: '1d'
-}));
+app.use(express.static(path.join(__dirname, '/')));
 app.use(express.static(path.join(__dirname, 'assets'), {
     maxAge: '1d'  // Cache images for 1 day
 }));
