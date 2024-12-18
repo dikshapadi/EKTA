@@ -7,22 +7,19 @@ const flash = require("connect-flash");
 const session = require("express-session");
 const methodOverride = require("method-override");
 const mapRoutes = require("./routes/map.js");
-const culRoutes = require("./routes/culinary.js")
-const danceRoutes = require("./routes/dance.js")
-const musicRoutes = require("./routes/music.js")
-const storyRoutes = require("./routes/story.js")
-const gamesRoutes = require("./routes/games.js")
-const gameRoutes = require("./routes/game.js")
-const ecommRoutes = require("./routes/ecommerce.js")
+const culRoutes = require("./routes/culinary.js");
+const danceRoutes = require("./routes/dance.js");
+const musicRoutes = require("./routes/music.js");
+const storyRoutes = require("./routes/story.js");
+const gamesRoutes = require("./routes/games.js");
+const gameRoutes = require("./routes/game.js");
+const ecommRoutes = require("./routes/ecommerce.js");
 
 app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname, 'assets')));
-
+app.use(express.static(__dirname));
 require("dotenv").config();
 require("./config/dbConnection.js");
 require("./config/passport.js")(passport);
-
-
 
 app.use(express.json());
 app.use(session({
@@ -42,7 +39,6 @@ app.use((req, res, next) => {
 	next();
 });
 
-
 // Routes
 app.use(mapRoutes);
 app.use(culRoutes);
@@ -53,11 +49,13 @@ app.use(gamesRoutes);
 app.use(gameRoutes);
 app.use(ecommRoutes);
 
-
+// MongoDB connection
 const MONGO_URI = process.env.MONGO_URI;
 const SESSION_SECRET = process.env.SESSION_SECRET;
 
 const PORT = process.env.PORT || 3000;
-if (process.env.NODE_ENV !== 'production') {
-    module.exports = app;	
-}
+
+// No need to call `app.listen()` here for Vercel
+// Vercel automatically handles the serverless function
+
+module.exports = app; // Export app for Vercel to use
