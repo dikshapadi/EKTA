@@ -4,7 +4,7 @@ const path = require('path');
 const ejs = require('ejs');
 const passport = require("passport");
 const flash = require("connect-flash");
-const RedisStore = require("connect-redis")(session);
+
 const methodOverride = require("method-override");
 const mapRoutes = require("./routes/map.js");
 const culRoutes = require("./routes/culinary.js");
@@ -22,16 +22,19 @@ require("./config/dbConnection.js");
 require("./config/passport.js")(passport);
 
 app.use(express.json());
-const redisClient = redis.createClient({
-	host: process.env.REDIS_HOST,
-	port: process.env.REDIS_PORT,
-  });
-  app.use(session({
-	store: new RedisStore({ client: redisClient }),
-	secret: "secret",
-	resave: true,
-	saveUninitialized: true,
-  }));  
+// const redisClient = redis.createClient({
+// 	host: process.env.REDIS_HOST, // Redis host from environment variables
+// 	port: process.env.REDIS_PORT, // Redis port from environment variables
+// 	password: process.env.REDIS_PASSWORD // Redis password, if needed
+//   });
+  
+//   app.use(session({
+// 	store: new RedisStore({ client: redisClient }), // Set up Redis as session store
+// 	secret: process.env.SESSION_SECRET || "secret", // Secret for signing session ID cookies
+// 	resave: false,
+// 	saveUninitialized: false,
+// 	cookie: { secure: process.env.NODE_ENV === 'production' } // Ensure secure cookies in production
+//   })); 
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
