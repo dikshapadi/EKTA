@@ -4,7 +4,7 @@ const path = require('path');
 const ejs = require('ejs');
 const passport = require("passport");
 const flash = require("connect-flash");
-const session = require("express-session");
+const RedisStore = require("connect-redis")(session);
 const methodOverride = require("method-override");
 const mapRoutes = require("./routes/map.js");
 const culRoutes = require("./routes/culinary.js");
@@ -22,11 +22,16 @@ require("./config/dbConnection.js");
 require("./config/passport.js")(passport);
 
 app.use(express.json());
-app.use(session({
+const redisClient = redis.createClient({
+	host: process.env.REDIS_HOST,
+	port: process.env.REDIS_PORT,
+  });
+  app.use(session({
+	store: new RedisStore({ client: redisClient }),
 	secret: "secret",
 	resave: true,
-	saveUninitialized: true
-}));
+	saveUninitialized: true,
+  }));  
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
@@ -51,8 +56,6 @@ app.use(ecommRoutes);
 
 // MongoDB connection
 const MONGO_URI = process.env.MONGO_URI;
-const SESSION_SECRET = process.env.SESSION_SECRET;
-
 const PORT = process.env.PORT || 3000;
 
 // No need to call `app.listen()` here for Vercel

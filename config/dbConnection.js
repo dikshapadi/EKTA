@@ -22,6 +22,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
   console.log('Connected to MongoDB');
 });
+mongoose.set('strictQuery', false);
 
 // Call the connectDB function to initiate the connection
 connectDB();
