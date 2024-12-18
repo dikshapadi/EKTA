@@ -16,7 +16,8 @@ const gameRoutes = require("./routes/game.js")
 const ecommRoutes = require("./routes/ecommerce.js")
 
 app.set('view engine', 'ejs');
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'assets')));
+
 require("dotenv").config();
 require("./config/dbConnection.js");
 require("./config/passport.js")(passport);
@@ -58,5 +59,5 @@ const SESSION_SECRET = process.env.SESSION_SECRET;
 
 const PORT = process.env.PORT || 3000;
 if (process.env.NODE_ENV !== 'production') {
-    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+    module.exports = app;	
 }
